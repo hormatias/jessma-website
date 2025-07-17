@@ -1,10 +1,7 @@
 services:
   website:
-    image: nginx:alpine
+    build: .
     container_name: jessma-website
-    volumes:
-      - ./nginx/jessma.conf:/etc/nginx/conf.d/jessma.conf
-      - ./:/usr/share/nginx/html
     ports:
       - "9876:80"
     restart: unless-stopped
