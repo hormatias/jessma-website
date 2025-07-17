@@ -3,7 +3,7 @@ services:
     image: nginx:alpine
     container_name: jessma-website
     volumes:
-      - ./nginx:/etc/nginx/conf.d
+      - ./nginx/jessma.conf:/etc/nginx/conf.d/jessma.conf
       - ./:/usr/share/nginx/html
     ports:
       - "9876:80"
