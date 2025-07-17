@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jessma - Decoradora de Eventos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Playfair+Display:wght@700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/splide.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'custom-pink': '#E91E63',
+                        'custom-pink-light': '#FADADD',
+                        'custom-mint': '#A8E6CF',
+                        'custom-mint-light': '#D4F1F4',
+                        'custom-mint-dark': '#7FB069',
+                        'custom-gold': '#FFD700',
+                        'custom-gold-light': '#FFF8DC',
+                        'custom-green': '#D1E7DD',
+                        'custom-green-dark': '#4A6741',
+                    },
+                    fontFamily: {
+                        'playfair': ['"Playfair Display"', 'serif'],
+                        'poppins': ['Poppins', 'sans-serif'],
+                        'dancing': ['"Dancing Script"', 'cursive']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-white font-poppins">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <!-- Desktop: Logo a la izquierda, menú a la derecha -->
+            <div class="hidden md:flex items-center">
+                <a href="#inicio" class="flex items-center">
+                    <img src="img/logo_jessma.png" alt="Jessma" class="h-20 w-auto">
+                </a>
+            </div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#inicio" class="text-gray-700 hover:text-custom-pink font-medium">Inicio</a>
+                <a href="#decoraciones" class="text-gray-700 hover:text-custom-pink font-medium">Decoraciones</a>
+                <a href="#packs" class="text-gray-700 hover:text-custom-pink font-medium">Packs</a>
+                <a href="#conoceme" class="text-gray-700 hover:text-custom-pink font-medium">Conóceme</a>
+                <a href="#contacto" class="text-gray-700 hover:text-custom-pink font-medium">Contacto</a>
+            </div>
+            <!-- Mobile: Logo centrado, menú hamburguesa a la derecha -->
+            <div class="md:hidden flex-1"></div>
+            <div class="md:hidden flex justify-center flex-1">
+                <a href="#inicio" class="flex items-center">
+                    <img src="img/logo_jessma.png" alt="Jessma" class="h-12 w-auto">
+                </a>
+            </div>
+            <div class="md:hidden flex justify-end flex-1">
+                <button id="menu-btn" class="text-gray-800 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="#inicio" class="block py-2 px-4 text-sm text-gray-700 hover:bg-custom-pink hover:text-white font-medium">Inicio</a>
+            <a href="#decoraciones" class="block py-2 px-4 text-sm text-gray-700 hover:bg-custom-pink hover:text-white font-medium">Decoraciones</a>
+            <a href="#packs" class="block py-2 px-4 text-sm text-gray-700 hover:bg-custom-pink hover:text-white font-medium">Packs</a>
+            <a href="#conoceme" class="block py-2 px-4 text-sm text-gray-700 hover:bg-custom-pink hover:text-white font-medium">Conóceme</a>
+            <a href="#contacto" class="block py-2 px-4 text-sm text-gray-700 hover:bg-custom-pink hover:text-white font-medium">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="min-h-screen flex items-center justify-center pt-32 relative overflow-hidden">
+        <!-- Background Image -->
+        <div class="absolute inset-0 z-0">
+            <img src="img/background.png" alt="" class="w-full h-full object-cover">
+        </div>
+        <!-- Content -->
+        <div class="relative z-10 container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-6xl font-dancing font-bold text-gray-800">Creamos momentos</h1>
+            <h2 class="text-4xl md:text-6xl font-dancing font-bold text-gray-800 mb-4">Inolvidables</h2>
+            <p class="text-lg text-gray-700 max-w-2xl mx-auto mb-8">Transformamos tus eventos en experiencias mágicas con decoraciones únicas y personalizadas</p>
+            <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center">
+                <a href="#decoraciones" class="bg-white text-gray-800 py-3 px-8 rounded-full font-bold hover:bg-gray-200 transition duration-300 text-center">Ver Decoraciones</a>
+                <a href="#packs" class="bg-custom-pink text-white py-3 px-8 rounded-full font-bold hover:bg-pink-600 transition duration-300 text-center">Nuestros Packs</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Decoraciones Section -->
+    <section id="decoraciones" class="py-20 bg-gradient-to-b from-white to-custom-mint-light/30">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl md:text-6xl font-dancing font-bold text-gray-800 mb-4">Decoraciones</h2>
+                <div class="w-24 h-1 bg-custom-pink mx-auto mb-6"></div>
+                <p class="text-xl text-gray-700 max-w-2xl mx-auto">Decoramos tus momentos más especiales con creatividad y pasión</p>
+            </div>
+            
+            <div class="splide max-w-4xl mx-auto">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide relative group">
+                            <div class="relative overflow-hidden rounded-2xl shadow-2xl">
+                                <img src="img/cumple1.jpg" alt="Cumpleaños dorado y azul" class="w-full h-96 object-cover transition-transform duration-500 group-hover:scale-105">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+                                <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
+                                    <h3 class="text-2xl font-dancing font-bold mb-2">Cumpleaños Dorado</h3>
+                                    <p class="text-lg opacity-90">Una celebración elegante y sofisticada</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide relative group">
+                            <div class="relative overflow-hidden rounded-2xl shadow-2xl">
+                                <img src="img/cumple2.jpg" alt="Decoración infantil con globos" class="w-full h-96 object-cover transition-transform duration-500 group-hover:scale-105">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+                                <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
+                                    <h3 class="text-2xl font-dancing font-bold mb-2">Bautizo de Giulia</h3>
+                                    <p class="text-lg opacity-90">Dulzura y encanto en tonos pastel</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide relative group">
+                            <div class="relative overflow-hidden rounded-2xl shadow-2xl">
+                                <img src="img/cumple3.jpg" alt="Cumpleaños en tonos morados y dorados" class="w-full h-96 object-cover transition-transform duration-500 group-hover:scale-105">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+                                <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
+                                    <h3 class="text-2xl font-dancing font-bold mb-2">40 Cumpleaños de Eva</h3>
+                                    <p class="text-lg opacity-90">Una fiesta vibrante y llena de glamour</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide relative group">
+                            <div class="relative overflow-hidden rounded-2xl shadow-2xl">
+                                <img src="img/cumple4.jpg" alt="Decoración con mariposas" class="w-full h-96 object-cover transition-transform duration-500 group-hover:scale-105">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+                                <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
+                                    <h3 class="text-2xl font-dancing font-bold mb-2">Tanti Auguri</h3>
+                                    <p class="text-lg opacity-90">Decoración delicada con mariposas</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide relative group">
+                            <div class="relative overflow-hidden rounded-2xl shadow-2xl">
+                                <img src="img/evento_corporativo.jpg" alt="Evento corporativo" class="w-full h-96 object-cover transition-transform duration-500 group-hover:scale-105">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+                                <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
+                                    <h3 class="text-2xl font-dancing font-bold mb-2">Evento Corporativo</h3>
+                                    <p class="text-lg opacity-90">Globos y detalles para tu empresa</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide relative group">
+                            <div class="relative overflow-hidden rounded-2xl shadow-2xl">
+                                <img src="img/JUBILACIÓN.jpg" alt="Decoración para jubilación" class="w-full h-96 object-cover transition-transform duration-500 group-hover:scale-105">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+                                <div class="absolute bottom-0 left-0 right-0 p-6 text-white">
+                                    <h3 class="text-2xl font-dancing font-bold mb-2">Jubilación</h3>
+                                    <p class="text-lg opacity-90">Celebrando una nueva etapa de la vida</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packs Section -->
+    <section id="packs" class="py-20 relative overflow-hidden">
+        <!-- Background Image -->
+        <div class="absolute inset-0 z-0">
+            <img src="img/background.png" alt="" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-custom-mint-light/40"></div>
+        </div>
+        <!-- Content -->
+        <div class="relative z-10 container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl md:text-6xl font-dancing font-bold text-gray-800 mb-4">Propuestas de Packs</h2>
+                <div class="w-24 h-1 bg-custom-pink mx-auto mb-6"></div>
+                <p class="text-xl text-gray-700 max-w-2xl mx-auto">Elige el pack perfecto para tu evento especial</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Pack 1 -->
+                <div class="bg-white rounded-2xl shadow-xl p-8 transform hover:scale-105 transition-all duration-300 border border-custom-mint-light">
+                    <div class="text-center mb-6">
+                        <h3 class="text-3xl font-dancing font-bold text-gray-800 mb-2">Pack Balloon Arch</h3>
+                        <div class="w-16 h-0.5 bg-custom-pink mx-auto"></div>
+                    </div>
+                    <ul class="text-gray-700 space-y-3">
+                        <li class="flex items-center"><span class="text-custom-mint-dark mr-3 font-bold text-lg">✓</span>Arco decorativo</li>
+                        <li class="flex items-center"><span class="text-custom-mint-dark mr-3 font-bold text-lg">✓</span>Globos</li>
+                        <li class="flex items-center"><span class="text-custom-mint-dark mr-3 font-bold text-lg">✓</span>Columnas</li>
+                        <li class="flex items-center"><span class="text-custom-mint-dark mr-3 font-bold text-lg">✓</span>Luces de neón</li>
+                    </ul>
+                </div>
+                <!-- Pack 2 -->
+                <div class="bg-white rounded-2xl shadow-xl p-8 transform hover:scale-105 transition-all duration-300 border border-custom-mint-light">
+                    <div class="text-center mb-6">
+                        <h3 class="text-3xl font-dancing font-bold text-gray-800 mb-2">Pack Shimmer Wall</h3>
+                        <div class="w-16 h-0.5 bg-custom-pink mx-auto"></div>
+                    </div>
+                    <ul class="text-gray-700 space-y-3">
+                        <li class="flex items-center"><span class="text-custom-mint-dark mr-3 font-bold text-lg">✓</span>Shimmer Wall</li>
+                        <li class="flex items-center"><span class="text-custom-mint-dark mr-3 font-bold text-lg">✓</span>Globos</li>
+                        <li class="flex items-center"><span class="text-custom-mint-dark mr-3 font-bold text-lg">✓</span>Columnas</li>
+                        <li class="flex items-center"><span class="text-custom-mint-dark mr-3 font-bold text-lg">✓</span>Luces de neón</li>
+                    </ul>
+                </div>
+                <!-- Pack 3 -->
+                <div class="bg-white rounded-2xl shadow-xl p-8 transform hover:scale-105 transition-all duration-300 border border-custom-mint-light">
+                    <div class="text-center mb-6">
+                        <h3 class="text-3xl font-dancing font-bold text-gray-800 mb-2">Pack Premium</h3>
+                        <div class="w-16 h-0.5 bg-custom-pink mx-auto"></div>
+                    </div>
+                    <ul class="text-gray-700 space-y-3">
+                        <li class="flex items-center"><span class="text-custom-mint-dark mr-3 font-bold text-lg">✓</span>Arco decorativo</li>
+                        <li class="flex items-center"><span class="text-custom-mint-dark mr-3 font-bold text-lg">✓</span>Globos</li>
+                        <li class="flex items-center"><span class="text-custom-mint-dark mr-3 font-bold text-lg">✓</span>Pared Shimmer Wall</li>
+                        <li class="flex items-center"><span class="text-custom-mint-dark mr-3 font-bold text-lg">✓</span>Columnas</li>
+                        <li class="flex items-center"><span class="text-custom-mint-dark mr-3 font-bold text-lg">✓</span>Luces de neón</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center mt-20">
+                <h3 class="text-4xl font-dancing font-bold text-gray-800 mb-6">Personalización y Extras</h3>
+                <div class="w-24 h-1 bg-custom-pink mx-auto mb-8"></div>
+                <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl p-8 border border-custom-mint-light">
+                    <div class="grid md:grid-cols-3 gap-8 text-center">
+                        <div class="space-y-3">
+                            <div class="w-12 h-12 bg-custom-mint-light rounded-full flex items-center justify-center mx-auto">
+                                <span class="text-custom-mint-dark text-2xl">🎨</span>
+                            </div>
+                            <h4 class="text-xl font-bold text-gray-800">Colores Personalizados</h4>
+                            <p class="text-gray-600">Elige la paleta que mejor se adapte a tu evento</p>
+                        </div>
+                        <div class="space-y-3">
+                            <div class="w-12 h-12 bg-custom-mint-light rounded-full flex items-center justify-center mx-auto">
+                                <span class="text-custom-mint-dark text-2xl">✨</span>
+                            </div>
+                            <h4 class="text-xl font-bold text-gray-800">Modelos a Elegir</h4>
+                            <p class="text-gray-600">Distintos modelos de arcos, luces y Shimmer Wall</p>
+                        </div>
+                        <div class="space-y-3">
+                            <div class="w-12 h-12 bg-custom-mint-light rounded-full flex items-center justify-center mx-auto">
+                                <span class="text-custom-mint-dark text-2xl">🎁</span>
+                            </div>
+                            <h4 class="text-xl font-bold text-gray-800">Extras Opcionales</h4>
+                            <p class="text-gray-600">Nombre en vinilo, Candy Bar, decoración temática</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conoceme Section -->
+    <section id="conoceme" class="py-20 relative overflow-hidden">
+        <!-- Background Image -->
+        <div class="absolute inset-0 z-0">
+            <img src="img/background.png" alt="" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-white/80"></div>
+        </div>
+        <!-- Content -->
+        <div class="relative z-10 container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl md:text-6xl font-dancing font-bold text-gray-800 mb-4">Conóceme</h2>
+                <div class="w-24 h-1 bg-custom-pink mx-auto"></div>
+            </div>
+            <div class="bg-white/80 backdrop-blur-sm max-w-4xl mx-auto rounded-2xl shadow-2xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-8 border border-white/30">
+                <div class="md:w-1/3">
+                    <img src="img/foto_jess.jpg" alt="Jessica - Decoradora de Eventos" class="rounded-2xl shadow-lg w-full h-auto object-cover transform hover:scale-105 transition-transform duration-500">
+                </div>
+                <div class="md:w-2/3 text-center md:text-left">
+                    <p class="text-xl text-gray-700 mb-4 leading-relaxed">¡Hola! Soy Jessica. Me apasiona emocionar a las personas a través de mis decoraciones. Con mi formación en Relaciones Públicas, Organización de Eventos y Escaparatismo, uno creatividad y técnica para dar vida a tus ideas.</p>
+                    <p class="text-xl text-gray-700 leading-relaxed">Disfruto cada proyecto, cuidando cada detalle para transformar un concepto en una decoración inolvidable. Mi objetivo es convertir tu evento en un momento mágico y especial.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="py-20 relative overflow-hidden">
+        <!-- Background Image -->
+        <div class="absolute inset-0 z-0">
+            <img src="img/background.png" alt="" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-white/90"></div>
+        </div>
+        <!-- Content -->
+        <div class="relative z-10 container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-5xl md:text-6xl font-dancing font-bold text-gray-800 mb-4">Hablemos</h2>
+                <div class="w-24 h-1 bg-custom-pink mx-auto"></div>
+            </div>
+            <div class="max-w-3xl mx-auto text-center">
+                <p class="text-xl text-gray-700 mb-12">¿Lista para empezar a crear momentos inolvidables? ¡Hablemos!</p>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/376679874" target="_blank" class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg p-6 flex flex-col items-center justify-center transform hover:scale-105 transition-all duration-300 border border-white/30 group">
+                        <svg class="w-12 h-12 text-custom-mint-dark mb-4 group-hover:text-custom-pink transition-colors duration-300" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M16.6,14.2l-1.5-0.8c-0.4-0.2-1-0.1-1.3,0.2L13,14.8c-1.5-0.8-2.8-2-3.6-3.6l1.2-0.8c0.3-0.3,0.4-0.9,0.2-1.3l-0.8-1.5 c-0.2-0.5-0.8-0.8-1.4-0.6l-1.8,0.5c-0.6,0.2-1,0.7-1,1.4c0,0.1,0,0.2,0,0.2C4,14.8,9.2,20,16.2,20c0,0,0.1,0,0.2,0 c0.6,0,1.2-0.4,1.4-1l0.5-1.8C18.4,15,18.1,14.4,17.6,14.2z"/></svg>
+                        <span class="text-lg font-semibold text-gray-800">WhatsApp</span>
+                        <span class="text-gray-600">+376 679 874</span>
+                    </a>
+                    <!-- Email -->
+                    <a href="mailto:Jessmailusiones@gmail.com" class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg p-6 flex flex-col items-center justify-center transform hover:scale-105 transition-all duration-300 border border-white/30 group">
+                        <svg class="w-12 h-12 text-custom-mint-dark mb-4 group-hover:text-custom-pink transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        <span class="text-lg font-semibold text-gray-800">Email</span>
+                        <span class="text-gray-600">Jessmailusiones</span>
+                    </a>
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/jessma_ilusiones" target="_blank" class="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg p-6 flex flex-col items-center justify-center transform hover:scale-105 transition-all duration-300 border border-white/30 group">
+                        <svg class="w-12 h-12 text-custom-mint-dark mb-4 group-hover:text-custom-pink transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect></svg>
+                        <span class="text-lg font-semibold text-gray-800">Instagram</span>
+                        <span class="text-gray-600">@jessma_ilusiones</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 pt-12 pb-8">
+        <div class="container mx-auto px-6 text-center text-white">
+            <div class="mb-8">
+                <a href="#inicio" class="inline-block">
+                    <img src="img/logo_jessma.png" alt="Jessma" class="h-20 w-auto bg-white/10 rounded-full p-2">
+                </a>
+            </div>
+            <p class="text-gray-500">&copy; 2025 Jessma.
+        </div>
+    </footer>
+
+    <script src="js/vendor/splide.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuBtn = document.getElementById('menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            menuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            // Smooth scrolling para todos los enlaces del menú
+            const menuLinks = document.querySelectorAll('a[href^="#"]');
+            menuLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetSection = document.querySelector(targetId);
+                    
+                    if (targetSection) {
+                        const headerHeight = document.querySelector('header').offsetHeight;
+                        const targetPosition = targetSection.offsetTop - headerHeight;
+                        
+                        window.scrollTo({
+                            top: targetPosition,
+                            behavior: 'smooth'
+                        });
+                        
+                        // Cerrar el menú móvil si está abierto
+                        mobileMenu.classList.add('hidden');
+                    }
+                });
+            });
+
+            new Splide('.splide', {
+                type       : 'loop',
+                perPage    : 1,
+                autoplay   : true,
+                pauseOnHover: true,
+            }).mount();
+        });
+    </script>
+</body>
+</html> 
