@@ -400,6 +400,25 @@
               'wrapAround': true,
               'disableScrolling': true
             })
+
+            // --- Lightbox Close Button Repositioning ---
+            // This script moves the close button inside the image container for better positioning.
+            const observer = new MutationObserver((mutations) => {
+                mutations.forEach((mutation) => {
+                    if (mutation.addedNodes.length) {
+                        const lightbox = document.getElementById('lightbox');
+                        if (lightbox && lightbox.style.display !== 'none') {
+                            const closeButtonContainer = lightbox.querySelector('.lb-closeContainer');
+                            const outerContainer = lightbox.querySelector('.lb-outerContainer');
+                            if (closeButtonContainer && outerContainer && closeButtonContainer.parentNode !== outerContainer) {
+                                outerContainer.appendChild(closeButtonContainer);
+                            }
+                        }
+                    }
+                });
+            });
+
+            observer.observe(document.body, { childList: true, subtree: true });
         });
     </script>
 </body>

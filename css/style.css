@@ -18,7 +18,7 @@ body {
     background: rgba(0, 0, 0, 0.5) no-repeat center/1em !important;
     border-radius: 50% !important;
     transition: background-color 0.2s ease-in-out;
-    opacity: 1 !important; /* Always visible */
+    opacity: 1 !important;
 }
 
 .lb-prev:hover, .lb-next:hover {
@@ -37,20 +37,35 @@ body {
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' width='40' height='40'%3E%3Cpath d='m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z' fill='%23fff'/%3E%3C/svg%3E") !important;
 }
 
-/* Style for the close button */
-.lb-data .lb-close {
-    position: fixed !important;
-    top: 1.5em;
-    right: 1.5em;
+/* --- Repositioned Close Button --- */
+/* Make .lb-outerContainer a positioning context */
+.lb-outerContainer {
+    position: relative !important;
+}
+
+/* The container for the close button, now inside lb-outerContainer */
+.lb-closeContainer {
+    position: absolute !important;
+    top: 20px !important;
+    right: 20px !important;
+    /* Nudge it slightly outside the top-right corner */
+    transform: translate(10%, -10%);
+    z-index: 100; /* Ensure it's above the image */
+}
+
+/* Style for the close button itself */
+.lb-close {
+    display: block !important; /* This is the fix: allows the <a> tag to have dimensions */
+    float: none !important;
     height: 3em !important;
     width: 3em !important;
     background: rgba(0, 0, 0, 0.5) url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='18' y1='6' x2='6' y2='18'/%3E%3Cline x1='6' y1='6' x2='18' y2='18'/%3E%3C/svg%3E") no-repeat center/1.2em !important;
     border-radius: 50% !important;
-    text-indent: -9999px; /* Hide the default '×' text */
-    opacity: 1 !important; /* Always visible */
+    text-indent: -9999px !important;
+    opacity: 1 !important;
     transition: background-color 0.2s ease-in-out;
 }
 
-.lb-data .lb-close:hover {
+.lb-close:hover {
     background-color: rgba(0, 0, 0, 0.7) !important;
 } 
