@@ -4,4 +4,53 @@ html {
  
 body {
     font-family: 'Poppins', sans-serif;
+}
+
+/* --- Custom Lightbox Styles --- */
+
+/* General style for both arrows */
+.lb-prev, .lb-next {
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    height: 3em !important;
+    width: 3em !important;
+    background: rgba(0, 0, 0, 0.5) no-repeat center/1em !important;
+    border-radius: 50% !important;
+    transition: background-color 0.2s ease-in-out;
+    opacity: 1 !important; /* Always visible */
+}
+
+.lb-prev:hover, .lb-next:hover {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* Position arrows */
+.lb-prev {
+    left: 1.5em !important;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' width='40' height='40'%3E%3Cpath d='m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z' fill='%23fff'/%3E%3C/svg%3E") !important;
+    transform: translateY(-50%) scaleX(-1) !important;
+}
+
+.lb-next {
+    right: 1.5em !important;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40' width='40' height='40'%3E%3Cpath d='m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z' fill='%23fff'/%3E%3C/svg%3E") !important;
+}
+
+/* Style for the close button */
+.lb-data .lb-close {
+    position: fixed !important;
+    top: 1.5em;
+    right: 1.5em;
+    height: 3em !important;
+    width: 3em !important;
+    background: rgba(0, 0, 0, 0.5) url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='18' y1='6' x2='6' y2='18'/%3E%3Cline x1='6' y1='6' x2='18' y2='18'/%3E%3C/svg%3E") no-repeat center/1.2em !important;
+    border-radius: 50% !important;
+    text-indent: -9999px; /* Hide the default '×' text */
+    opacity: 1 !important; /* Always visible */
+    transition: background-color 0.2s ease-in-out;
+}
+
+.lb-data .lb-close:hover {
+    background-color: rgba(0, 0, 0, 0.7) !important;
 } 
