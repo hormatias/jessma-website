@@ -1,0 +1,72 @@
+# Robots.txt para Jessma - Decoración de Eventos en Andorra
+# https://jessma.net/robots.txt
+
+# Permitir acceso a todos los bots de búsqueda
+User-agent: *
+Allow: /
+
+# Permitir acceso a recursos importantes
+Allow: /css/
+Allow: /js/
+Allow: /img/
+Allow: *.css
+Allow: *.js
+Allow: *.png
+Allow: *.jpg
+Allow: *.jpeg
+Allow: *.gif
+Allow: *.webp
+Allow: *.svg
+
+# Denegar acceso a archivos y directorios sensibles
+Disallow: /.htaccess
+Disallow: /.git/
+Disallow: /backup/
+Disallow: /tmp/
+Disallow: *.bak
+Disallow: *.backup
+Disallow: *.old
+Disallow: *.orig
+Disallow: *.tmp
+
+# Configuración específica para Googlebot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Configuración específica para Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Permitir acceso completo a bots de redes sociales
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+# Denegar bots maliciosos conocidos
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+# Sitemap - Actualizar con la URL real del sitio
+Sitemap: https://jessma.net/sitemap.xml
+
+# Host preferido (descomentar y actualizar con el dominio real)
+# Host: https://jessma.net
