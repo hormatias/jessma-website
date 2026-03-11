@@ -8,7 +8,7 @@ nav:
 seo:
   home:
     title: Decoració d'Esdeveniments a Andorra
-    description: Especialista en decoració d'esdeveniments a Andorra. Creo ambients màgics per a aniversaris, cerimònies, batejos, baby showers, revelacions de sexe, comunions, esdeveniments corporatius i celebracions temàtiques.
+    description: Especialista en decoració d'esdeveniments a Andorra. Creo espais màgics per a aniversaris, cerimònies, batejos, baby showers, gender reveals, comunions, esdeveniments corporatius i celebracions temàtiques.
     keywords: decoració d'esdeveniments andorra, festes andorra, aniversaris, batejos, esdeveniments corporatius, decoració amb globus, arc de globus, shimmer wall, jessma, jessma ilusiones
     og_title: Decoració d'Esdeveniments a Andorra
     og_description: Transformo els teus esdeveniments en experiències màgiques amb decoracions úniques i personalitzades.
@@ -21,7 +21,7 @@ hero:
   lead: Creant més que decoracions…
   headline: Convertint il·lusions en realitat!
   description: Transformo els teus esdeveniments en experiències màgiques amb decoracions úniques i personalitzades
-  primary_cta: Veure Decoracions
+  primary_cta: Veure decoracions
   secondary_cta: Els meus Packs
 decorations:
   title: Decoracions
@@ -31,14 +31,14 @@ packs:
   subtitle: Tria el pack perfecte per al teu esdeveniment especial
   cta: Contactar
 customization:
-  title: Personalització i Extres
+  title: Personalització i extres
   cards:
     - icon: "✨"
       accent_class: border-custom-pink
       button_class: bg-custom-pink
-      title: Models per Escollir
+      title: Models per triar
       button_label: Veure models
-      button_url: "https://wa.me/376679874?text=Hola%20Jessica,%20et%20contacto%20des%20de%20la%20teva%20web.%20M'interessa%20con%C3%A8ixer%20els%20diferents%20models%20d'arcs,%20llums%20i%20Shimmer%20Wall"
+      button_url: "https://wa.me/376679874?text=Hola%20Jessica,%20et%20contacto%20a%20trav%C3%A9s%20de%20la%20teva%20web.%20M'interessa%20con%C3%A8ixer%20els%20diferents%20models%20d'arcs,%20llums%20i%20Shimmer%20Wall."
       items:
         - title: Arcs decoratius
           description: Diversos dissenys disponibles
@@ -49,13 +49,13 @@ customization:
     - icon: "🎁"
       accent_class: border-custom-gold
       button_class: bg-custom-gold
-      title: Extres Opcionals
+      title: Extres opcionals
       button_label: Veure extres
-      button_url: "https://wa.me/376679874?text=Hola%20Jessica,%20et%20contacto%20des%20de%20la%20teva%20web.%20M'interessa%20m%C3%A9s%20informaci%C3%B3%20sobre%20els%20extres%20opcionals%20per%20al%20meu%20esdeveniment"
+      button_url: "https://wa.me/376679874?text=Hola%20Jessica,%20et%20contacto%20a%20trav%C3%A9s%20de%20la%20teva%20web.%20M'agradaria%20rebre%20m%C3%A9s%20informaci%C3%B3%20sobre%20els%20extres%20opcionals%20per%20al%20meu%20esdeveniment."
       items:
         - title: Decoració temàtica
           link_label: Preu a consultar
-          link_url: "https://wa.me/376679874?text=Hola%20Jessica,%20et%20contacto%20des%20de%20la%20teva%20web.%20M'interessa%20consultar%20el%20preu%20per%20al%20nom%20en%20vinil%20i%20la%20decoraci%C3%B3%20tem%C3%A0tica"
+          link_url: "https://wa.me/376679874?text=Hola%20Jessica,%20et%20contacto%20a%20trav%C3%A9s%20de%20la%20teva%20web.%20M'agradaria%20consultar%20el%20preu%20del%20nom%20en%20vinil%20i%20de%20la%20decoraci%C3%B3%20tem%C3%A0tica."
         - title: Carro candy bar + elements decoratius
           price: 60€
         - title: Taula candy bar + elements decoratius
@@ -65,7 +65,7 @@ customization:
       button_class: bg-custom-mint-dark
       title: Colors Personalitzats
       button_label: Veure colors
-      button_url: "https://wa.me/376679874?text=Hola%20Jessica,%20et%20contacto%20des%20de%20la%20teva%20web.%20M'agradaria%20consultar%20sobre%20colors%20personalitzats%20per%20al%20meu%20esdeveniment"
+      button_url: "https://wa.me/376679874?text=Hola%20Jessica,%20et%20contacto%20a%20trav%C3%A9s%20de%20la%20teva%20web.%20M'agradaria%20consultar%20opcions%20de%20colors%20personalitzats%20per%20al%20meu%20esdeveniment."
       items:
         - title: Paletes temàtiques
           description: Adaptades al teu esdeveniment
@@ -77,20 +77,20 @@ about:
   title: Coneix-me
   image_alt: Jessica - Decoració d'esdeveniments
   paragraphs:
-    - Hola! Sóc la Jessica. M'apassiona emocionar les persones a través de les meves decoracions. Amb la meva formació en Relacions Públiques, Organització d'Esdeveniments i Escaparatisme, uneixo creativitat i tècnica per donar vida a les teves idees.
+    - Hola! Sóc la Jessica. M'apassiona emocionar les persones a través de les meves decoracions. Amb formació en Relacions Públiques, Organització d'Esdeveniments i Escaparatisme, uneixo creativitat i tècnica per donar vida a les teves idees.
     - Gaudeixo de cada projecte, cuidant cada detall per transformar un concepte en una decoració inoblidable. El meu objectiu és convertir el teu esdeveniment en un moment màgic i especial.
 contact:
   title: Parlem
-  subtitle: Preparada per començar a crear moments inoblidables? Parlem!
+  subtitle: A punt per començar a crear moments inoblidables? Parlem!
   methods:
     whatsapp:
       label: WhatsApp
       value: "+376 679 874"
-      href: "https://wa.me/376679874?text=Hola%20Jessica,%20et%20contacto%20des%20de%20la%20teva%20web.%20M'agradaria%20parlar%20amb%20tu%20sobre%20la%20decoraci%C3%B3%20del%20meu%20esdeveniment.%20Em%20podries%20ajudar%3F"
+      href: "https://wa.me/376679874?text=Hola%20Jessica,%20et%20contacto%20a%20trav%C3%A9s%20de%20la%20teva%20web.%20M'agradaria%20parlar%20amb%20tu%20sobre%20la%20decoraci%C3%B3%20del%20meu%20esdeveniment.%20Em%20podries%20ajudar%3F"
     email:
       label: Email
       value: Jessmailusiones
-      href: "mailto:Jessmailusiones@gmail.com?subject=Consulta%20sobre%20decoraci%C3%B3%20d'esdeveniments&body=Hola%20Jessica,%0A%0AEt%20contacto%20des%20de%20la%20teva%20web.%20M'agradaria%20consultar%20sobre%20la%20decoraci%C3%B3%20del%20meu%20esdeveniment.%20Em%20podries%20ajudar%20amb%20informaci%C3%B3%20i%20pressupost%3F%0A%0AGr%C3%A0cies,%0A"
+      href: "mailto:Jessmailusiones@gmail.com?subject=Consulta%20sobre%20decoraci%C3%B3%20d'esdeveniments&body=Hola%20Jessica,%0A%0AEt%20contacto%20a%20trav%C3%A9s%20de%20la%20teva%20web.%20M'agradaria%20consultar%20sobre%20la%20decoraci%C3%B3%20del%20meu%20esdeveniment.%20Em%20podries%20ajudar%20amb%20m%C3%A9s%20informaci%C3%B3%20i%20un%20pressupost%3F%0A%0AGr%C3%A0cies,%0A"
     instagram:
       label: Instagram
       value: "@jessma_ilusiones"
@@ -102,9 +102,9 @@ error_404:
   code: "404"
   title: Ui! Pàgina no trobada
   description: La pàgina que busques sembla haver-se perdut en el món de les decoracions màgiques. Però no et preocupis, tenim moltes coses boniques per mostrar-te.
-  primary_cta: Tornar a l'Inici
+  primary_cta: Tornar a l'inici
   secondary_cta: Contactar per WhatsApp
-  secondary_url: "https://wa.me/376679874?text=Hola%20Jessica,%20et%20contacto%20des%20de%20la%20teva%20web.%20M'agradaria%20con%C3%A8ixer%20m%C3%A9s%20sobre%20els%20teus%20serveis%20de%20decoraci%C3%B3"
+  secondary_url: "https://wa.me/376679874?text=Hola%20Jessica,%20et%20contacto%20a%20trav%C3%A9s%20de%20la%20teva%20web.%20M'agradaria%20con%C3%A8ixer%20m%C3%A9s%20sobre%20els%20teus%20serveis%20de%20decoraci%C3%B3."
   quick_links_title: Buscaves alguna cosa específica?
   quick_links:
     - label: Veure Decoracions
