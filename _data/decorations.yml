@@ -1,273 +1,340 @@
+- image: /img/cumpleanos_65_shimmer_wall_dorado.jpg
+  title:
+    es: 65 cumpleaños
+    en: 65th birthday
+    ca: 65 aniversari
+  lightbox_title:
+    es: 65 cumpleaños
+    en: 65th birthday
+    ca: 65 aniversari
+  alt:
+    es: Cumpleaños 65 con shimmer wall dorado, globos combinados y cartel luz neón
+    en: 65th birthday with gold shimmer wall, mixed balloons, and neon sign
+    ca: Aniversari de 65 anys amb shimmer wall daurat, globus combinats i rètol de neó
+  description:
+    es: Shimmer Wall dorado, globos combinados y cartel luz neón
+    en: Gold shimmer wall, mixed balloons, and neon sign
+    ca: Shimmer Wall daurat, globus combinats i rètol de neó
+- image: /img/baby_shower_arco_peluche_baby.jpg
+  title:
+    es: Baby Shower
+    en: Baby shower
+    ca: Baby shower
+  lightbox_title:
+    es: Baby Shower
+    en: Baby shower
+    ca: Baby shower
+  alt:
+    es: Baby shower con arco decorativo, globos combinados, peluche y cajitas Baby
+    en: Baby shower with decorative arch, mixed balloons, teddy bear, and Baby letter boxes
+    ca: Baby shower amb arc decoratiu, globus combinats, peluix i capsetes Baby
+  description:
+    es: Arco decorativo, globos combinados, cartel luz neón y detalles de peluche con cajitas letras Baby
+    en: Decorative arch, mixed balloons, neon sign, and teddy bear details with Baby letter boxes
+    ca: Arc decoratiu, globus combinats, rètol de neó i detalls de peluix amb capsetes de lletres Baby
+- image: /img/cumpleanos_18_shimmer_wall_numero_iluminado.jpg
+  title:
+    es: 18 Cumpleaños
+    en: 18th Birthday
+    ca: 18 Aniversari
+  lightbox_title:
+    es: 18 Cumpleaños
+    en: 18th Birthday
+    ca: 18 Aniversari
+  alt:
+    es: Cumpleaños 18 con shimmer wall rosa, plumas, globos y número 18 iluminado
+    en: 18th birthday with pink shimmer wall, feathers, balloons, and illuminated number 18
+    ca: Aniversari de 18 anys amb shimmer wall rosa, plomes, globus i número 18 il·luminat
+  description:
+    es: Shimmer Wall rosa suave, globos combinados, cartel luz neón, detalles plumas y número 18 iluminado
+    en: Soft pink shimmer wall, mixed balloons, neon sign, feather details, and illuminated number 18
+    ca: Shimmer Wall rosa suau, globus combinats, rètol de neó, detalls de plomes i número 18 il·luminat
+- image: /img/bautizo_candy_bar_oso_globo_aerostatico.jpg
+  title:
+    es: Bautizo
+    en: Christening
+    ca: Bateig
+  lightbox_title:
+    es: Bautizo
+    en: Christening
+    ca: Bateig
+  alt:
+    es: Bautizo con carrito candy bar, oso y globo aerostático hecho con globos
+    en: Christening with candy cart, teddy bear, and hot-air balloon made with balloons
+    ca: Bateig amb carretó candy bar, osset i globus aerostàtic fet amb globus
+  description:
+    es: Carrito y estantería Candy Bar con elementos decorativos y oso en cesto con globo aerostático hechos con globos
+    en: Candy cart and display shelf with decorative elements, plus a teddy bear in a basket with a hot-air balloon made from balloons
+    ca: Carretó i prestatgeria candy bar amb elements decoratius, i osset en un cistell amb globus aerostàtic fet amb globus
+- image: /img/ceremonia_boda_arco_seda_flores.jpg
+  title:
+    es: Ceremonia Boda
+    en: Wedding ceremony
+    ca: Cerimònia de casament
+  lightbox_title:
+    es: Ceremonia Boda
+    en: Wedding ceremony
+    ca: Cerimònia de casament
+  alt:
+    es: Ceremonia de boda con arco vestido con seda, flores e hiedras
+    en: Wedding ceremony with arch draped in silk, flowers, and ivy
+    ca: Cerimònia de casament amb arc vestit amb seda, flors i heures
+  description:
+    es: Arco decorativo vestido con telas de seda y flores con hiedras artificiales
+    en: Decorative arch dressed with silk fabrics, flowers, and artificial ivy
+    ca: Arc decoratiu vestit amb teles de seda, flors i heures artificials
+- image: /img/cumpleanos_tematico_guerreras_kpop.jpg
+  title:
+    es: Cumpleaños temático Guerreras K-Pop
+    en: K-Pop Warriors themed birthday
+    ca: Aniversari temàtic Guerreres K-Pop
+  lightbox_title:
+    es: Cumpleaños temático Guerreras K-Pop
+    en: K-Pop Warriors themed birthday
+    ca: Aniversari temàtic Guerreres K-Pop
+  alt:
+    es: Cumpleaños temático Guerreras K-Pop con shimmer wall rosa y número 7 iluminado
+    en: K-Pop Warriors themed birthday with pink shimmer wall and illuminated number 7
+    ca: Aniversari temàtic Guerreres K-Pop amb shimmer wall rosa i número 7 il·luminat
+  description:
+    es: Arcos decorativos con fundas temáticas, shimmer wall rosa suave, globos combinados y número 7 iluminado
+    en: Decorative arches with themed covers, soft pink shimmer wall, mixed balloons, and illuminated number 7
+    ca: Arcs decoratius amb fundes temàtiques, shimmer wall rosa suau, globus combinats i número 7 il·luminat
+- image: /img/photocall_navidad_globos.jpg
+  title:
+    es: Photocall Navidad
+    en: Christmas photo backdrop
+    ca: Photocall de Nadal
+  lightbox_title:
+    es: Photocall Navidad
+    en: Christmas photo backdrop
+    ca: Photocall de Nadal
+  alt:
+    es: Photocall navideño con pared de globos y detalles de Navidad
+    en: Christmas photo backdrop with balloon wall and festive details
+    ca: Photocall de Nadal amb paret de globus i detalls nadalencs
+  description:
+    es: Pared de globos con detalles navideños
+    en: Balloon wall with festive Christmas details
+    ca: Paret de globus amb detalls nadalencs
+- image: /img/evento_corporativo_columnas_empresa.jpg
+  title:
+    es: Evento corporativo
+    en: Corporate event
+    ca: Esdeveniment corporatiu
+  lightbox_title:
+    es: Evento corporativo
+    en: Corporate event
+    ca: Esdeveniment corporatiu
+  alt:
+    es: Evento corporativo con columnas decorativas en colores de empresa
+    en: Corporate event with decorative columns in company colours
+    ca: Esdeveniment corporatiu amb columnes decoratives amb colors d'empresa
+  description:
+    es: Columnas decorativas con colores de empresa
+    en: Decorative columns in company colours
+    ca: Columnes decoratives amb colors d'empresa
+- image: /img/publicidad_comercio_soportes_empresa.jpg
+  title:
+    es: Publicidad comercio
+    en: Shop promotion
+    ca: Publicitat comerç
+  lightbox_title:
+    es: Publicidad comercio
+    en: Shop promotion
+    ca: Publicitat comerç
+  alt:
+    es: Publicidad de comercio con soportes decorativos y globos de colores corporativos
+    en: Shop promotion with decorative stands and balloons in corporate colours
+    ca: Publicitat de comerç amb suports decoratius i globus amb colors corporatius
+  description:
+    es: Soportes decorativos con globos con colores empresa
+    en: Decorative stands with balloons in company colours
+    ca: Suports decoratius amb globus amb colors d'empresa
+- image: /img/cena_hotel_fin_de_ano_globos.jpg
+  title:
+    es: Cena Hotel Fin de año
+    en: Hotel New Year's Eve dinner
+    ca: Sopar d'hotel de Cap d'Any
+  lightbox_title:
+    es: Cena Hotel Fin de año
+    en: Hotel New Year's Eve dinner
+    ca: Sopar d'hotel de Cap d'Any
+  alt:
+    es: Cena de hotel de fin de año con paredes de globos elegantes
+    en: Hotel New Year's Eve dinner with elegant balloon walls
+    ca: Sopar d'hotel de Cap d'Any amb parets de globus elegants
+  description:
+    es: Paredes de globos en tonos elegantes
+    en: Balloon walls in elegant tones
+    ca: Parets de globus en tons elegants
 - image: /img/cumpleanos_cortina_globos_fachada.jpg
   title:
     es: Cumpleaños
     en: Birthday
+    ca: Aniversari
   lightbox_title:
     es: Cumpleaños
     en: Birthday
+    ca: Aniversari
   alt:
     es: Cumpleaños con cortina de globos en fachada
     en: Birthday setup with balloon curtain on a facade
+    ca: Aniversari amb cortina de globus a la façana
   description:
     es: Cortina de globos en fachada
     en: Balloon curtain on a facade
+    ca: Cortina de globus a la façana
 - image: /img/evento_especial_arco_globos_diagonal.jpg
   title:
     es: Evento especial
     en: Special event
+    ca: Esdeveniment especial
   lightbox_title:
     es: Evento especial
     en: Special event
+    ca: Esdeveniment especial
   alt:
     es: Evento especial con arco de globos en diagonal
     en: Special event with a diagonal balloon arch
+    ca: Esdeveniment especial amb arc de globus en diagonal
   description:
     es: Arco decorativo con formato globos en diagonal
     en: Decorative balloon arch arranged diagonally
+    ca: Arc decoratiu de globus en diagonal
 - image: /img/cumpleanos_18_arco_funda_vinilo.jpg
   title:
-    es: Cumpleaños de 18 años
-    en: 18th birthday
+    es: 18 Cumpleaños
+    en: 18th Birthday
+    ca: 18 Aniversari
   lightbox_title:
-    es: Cumpleaños de 18 años
-    en: 18th birthday
+    es: 18 Cumpleaños
+    en: 18th Birthday
+    ca: 18 Aniversari
   alt:
     es: Cumpleaños de 18 años con arco decorativo y nombre vinilado
     en: 18th birthday decor with an arch and vinyl lettering
+    ca: Aniversari de 18 anys amb arc decoratiu i nom vinilat
   description:
     es: Arco decorativo con funda y globos. Nombre y número vinilados.
-    en: Decorative arch with cover and balloons, plus custom vinyl name and number
-- image: /img/cumpleanos_arco_globos_otono_hojas.jpg
-  title:
-    es: Cumpleaños
-    en: Birthday
-  lightbox_title:
-    es: Cumpleaños
-    en: Birthday
-  alt:
-    es: Cumpleaños con arco de globos en tonos otoño
-    en: Birthday setup with autumn-toned balloon arch
-  description:
-    es: Arco decorativo con globos en tonos de otoño y detalles de hojas en papel kraft
-    en: Decorative balloon arch in autumn tones with kraft paper leaf details
+    en: Decorative arch with cover and balloons, plus custom vinyl name and number.
+    ca: Arc decoratiu amb funda i globus, amb el nom i el número vinilats.
 - image: /img/decoracion_floral_arcos_columnas.jpg
   title:
     es: Decoración floral
     en: Floral decor
+    ca: Decoració floral
   lightbox_title:
     es: Decoración floral
     en: Floral decor
+    ca: Decoració floral
   alt:
     es: Decoración floral con arcos y columnas
     en: Floral decor with arches and columns
+    ca: Decoració floral amb arcs i columnes
   description:
     es: Arcos decorativos con flores artificiales y columnas con plantas colgantes
     en: Decorative arches with artificial flowers and columns with hanging plants
+    ca: Arcs decoratius amb flors artificials i columnes amb plantes penjants
 - image: /img/cumpleanos_50_shimmer_wall_fucsia_negro.jpg
   title:
-    es: Cumpleaños 50 años
-    en: 50th birthday
+    es: 50 Cumpleaños
+    en: 50th Birthday
+    ca: 50 Aniversari
   lightbox_title:
-    es: Cumpleaños 50 años
-    en: 50th birthday
+    es: 50 Cumpleaños
+    en: 50th Birthday
+    ca: 50 Aniversari
   alt:
-    es: Cumpleaños 50 años con shimmer wall y globos fucsia y negros
+    es: Cumpleaños de 50 años con shimmer wall y globos fucsia y negros
     en: 50th birthday setup with shimmer wall and fuchsia and black balloons
+    ca: Aniversari de 50 anys amb shimmer wall i globus fúcsia i negres
   description:
     es: Shimmer wall plateado combinado con globos fucsias y negros
-    en: Silver shimmer wall combined with fuchsia and black balloons
+    en: Silver shimmer wall with fuchsia and black balloons
+    ca: Shimmer wall platejat combinat amb globus fúcsia i negres
 - image: /img/decoracion_tematica_halloween_trono.jpg
   title:
     es: Decoración temática Halloween
     en: Halloween themed decor
+    ca: Decoració temàtica de Halloween
   lightbox_title:
     es: Decoración temática Halloween
     en: Halloween themed decor
+    ca: Decoració temàtica de Halloween
   alt:
     es: Decoración de Halloween con trono y globos
     en: Halloween decor with a throne and balloons
+    ca: Decoració de Halloween amb tron i globus
   description:
     es: Trono de esqueleto combinado con globos negros y rojos y detalles temáticos
     en: Skeleton throne paired with black and red balloons and themed details
+    ca: Tron d'esquelet combinat amb globus negres i vermells i detalls temàtics
 - image: /img/bautizo_arco_globos_rosas_perlas.jpg
   title:
     es: Bautizo
     en: Christening
+    ca: Bateig
   lightbox_title:
     es: Bautizo
     en: Christening
+    ca: Bateig
   alt:
     es: Bautizo con arco de globos rosas y perlas
     en: Christening setup with pink and pearl balloons
+    ca: Bateig amb arc de globus roses i perles
   description:
     es: Arco decorativo con globos rosas y perlas con nombre vinilado. También columna con soporte.
-    en: Decorative arch with pink and pearl balloons, custom vinyl name, and a support column
+    en: Decorative arch with pink and pearl balloons, custom vinyl name, and a support column.
+    ca: Arc decoratiu amb globus roses i perles, nom vinilat i columna amb suport.
 - image: /img/cumpleanos_25_arco_lila_plateado.jpg
   title:
-    es: Cumpleaños 25 años
-    en: 25th birthday
+    es: 25 Cumpleaños
+    en: 25th Birthday
+    ca: 25 Aniversari
   lightbox_title:
-    es: Cumpleaños 25 años
-    en: 25th birthday
+    es: 25 Cumpleaños
+    en: 25th Birthday
+    ca: 25 Aniversari
   alt:
-    es: Cumpleaños 25 años con globos lilas y plateados
+    es: Cumpleaños de 25 años con globos lilas y plateados
     en: 25th birthday setup with lilac and silver balloons
+    ca: Aniversari de 25 anys amb globus liles i platejats
   description:
     es: Arco decorativo con globos lilas y plateado con nombre vinilado. También columna.
-    en: Decorative arch with lilac and silver balloons, custom vinyl name, and a matching column
-- image: /img/gender_reveal_arco_peluche.jpg
-  title:
-    es: Gender Reveal
-    en: Gender reveal
-  lightbox_title:
-    es: Gender Reveal
-    en: Gender reveal
-  alt:
-    es: Gender reveal con arco decorativo y peluche
-    en: Gender reveal setup with a decorative arch and teddy bear detail
-  description:
-    es: Arco decorativo, con detalle peluche, cajas letras Baby y cartel luz neón
-    en: Decorative arch with teddy bear detail, Baby letter boxes, and a neon sign
-- image: /img/baby_shower_soportes_dorados.jpg
-  title:
-    es: Baby Shower
-    en: Baby shower
-  lightbox_title:
-    es: Baby Shower
-    en: Baby shower
-  alt:
-    es: Baby shower con soportes dorados y globos
-    en: Baby shower setup with gold stands and balloons
-  description:
-    es: Soportes dorados combinados con globos, cartel luz neón y dos columnas con detalles infantiles
-    en: Gold stands combined with balloons, a neon sign, and two child-themed columns
-- image: /img/bautizo_arco_globos_oso.jpg
-  title:
-    es: Bautizo
-    en: Christening
-  lightbox_title:
-    es: Bautizo
-    en: Christening
-  alt:
-    es: Bautizo con arco de globos y oso de peluche
-    en: Christening setup with balloon arch and teddy bear detail
-  description:
-    es: Arco decorativo, cartel vinilado con globos y detalle oso peluche
-    en: Decorative arch, vinyl sign with balloons, and teddy bear detail
+    en: Decorative arch with lilac and silver balloons, custom vinyl name, and a matching column.
+    ca: Arc decoratiu amb globus liles i platejats, nom vinilat i columna a joc.
 - image: /img/publicidad_empresa_caballete_globos.jpg
   title:
-    es: Publicidad empresa
-    en: Brand activation
+    es: Publicidad comercio
+    en: Shop promotion
+    ca: Publicitat comerç
   lightbox_title:
-    es: Publicidad empresa
-    en: Brand activation
+    es: Publicidad comercio
+    en: Shop promotion
+    ca: Publicitat comerç
   alt:
-    es: Publicidad de empresa con caballete y globos
-    en: Business promotion with easel and balloons
+    es: Publicidad de comercio con caballete y globos
+    en: Shop promotion with easel and balloons
+    ca: Publicitat de comerç amb cavallet i globus
   description:
     es: Caballete con globos
     en: Easel display with balloons
-- image: /img/flower_wall_arco_seda.jpg
-  title:
-    es: Cita romántica
-    en: Romantic setup
-  lightbox_title:
-    es: Cita romántica
-    en: Romantic setup
-  alt:
-    es: Cita romántica con arco decorativo y flores
-    en: Romantic setup with decorative arch and flowers
-  description:
-    es: Arco decorativo con tul, flores artificiales y columnas con detalles cestos
-    en: Decorative arch with tulle, artificial flowers, and columns with basket details
-- image: /img/altar_conferencia_arco_mesa.jpg
-  title:
-    es: Altar conferencia
-    en: Conference altar
-  lightbox_title:
-    es: Altar conferencia
-    en: Conference altar
-  alt:
-    es: Altar para conferencia con arco decorativo
-    en: Conference altar with decorative arch
-  description:
-    es: Arco decorativo, mesa vestidos con tela de seda y columna con detalles de plantas
-    en: Decorative arch, silk-draped table, and column with plant details
+    ca: Cavallet amb globus
 - image: /img/cumpleanos_tematico_arcos_neon.jpg
   title:
     es: Cumpleaños temático
     en: Themed birthday
+    ca: Aniversari temàtic
   lightbox_title:
     es: Cumpleaños temático
     en: Themed birthday
+    ca: Aniversari temàtic
   alt:
     es: Cumpleaños temático con arcos y neón
     en: Themed birthday with arches and neon sign
+    ca: Aniversari temàtic amb arcs i rètol de neó
   description:
     es: Arcos decorativos con funda personalizada, cartel luz neón personalizado y estantería candy bar
-    en: Decorative arches with custom cover, custom neon sign, and candy bar shelving
-- image: /img/swimming_pool_party.jpg
-  title:
-    es: Swimming Pool Party
-    en: Pool party
-  lightbox_title:
-    es: Swimming Pool Party
-    en: Pool party
-  alt:
-    es: Fiesta en piscina con arcoíris de globos
-    en: Pool party with rainbow balloon display
-  description:
-    es: Arcoíris de globos
-    en: Balloon rainbow installation
-- image: /img/carrito_candy_bar.jpg
-  title:
-    es: Carrito Candy Bar
-    en: Candy cart
-  lightbox_title:
-    es: Carrito Candy Bar
-    en: Candy cart
-  alt:
-    es: Carrito candy bar decorado
-    en: Decorated candy cart
-  description:
-    es: Dulces y detalles decorativos.
-    en: Sweets and decorative details
-- image: /img/baby_shower_neon.jpg
-  title:
-    es: Baby Shower
-    en: Baby shower
-  lightbox_title:
-    es: Baby Shower
-    en: Baby shower
-  alt:
-    es: Baby shower con globos y neón
-    en: Baby shower setup with balloons and neon sign
-  description:
-    es: Arcos decorativos con globos y cartel luz neón
-    en: Decorative balloon arches with neon sign
-- image: /img/evento_especial_empresa.jpg
-  title:
-    es: Evento especial empresa
-    en: Corporate special event
-  lightbox_title:
-    es: Evento especial empresa
-    en: Corporate special event
-  alt:
-    es: Evento especial de empresa con shimmer wall
-    en: Corporate special event with shimmer wall
-  description:
-    es: Shimmer Wall con globos y cartel luz neón
-    en: Shimmer wall with balloons and neon sign
-- image: /img/cumple1.jpg
-  title:
-    es: Cumpleaños Dorado
-    en: Golden birthday
-  lightbox_title:
-    es: Cumpleaños Dorado
-    en: Golden birthday
-  alt:
-    es: Cumpleaños dorado con shimmer wall y neón
-    en: Golden birthday setup with shimmer wall and neon sign
-  description:
-    es: Shimmer Wall, globos, columnas decorativas y cartel de luz neón
-    en: Shimmer wall, balloons, decorative columns, and neon sign
+    en: Decorative arches with custom cover, personalised neon sign, and candy bar shelving
+    ca: Arcs decoratius amb funda personalitzada, rètol de neó personalitzat i prestatgeria candy bar
