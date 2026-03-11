@@ -48,7 +48,7 @@ customization:
         - title: Neon lights
           description: Different looks and colors
         - title: Shimmer wall
-          description: Multiple backdrop options
+          description: 3 options
     - icon: "🎁"
       accent_class: border-custom-gold
       button_class: bg-custom-gold
@@ -62,7 +62,7 @@ customization:
         - title: Candy cart + decorative elements
           price: 60€
         - title: Candy table + decorative elements
-          price: 60€
+          price: 50€
     - icon: "🎨"
       accent_class: border-custom-mint-dark
       button_class: bg-custom-mint-dark

@@ -45,7 +45,7 @@ customization:
         - title: Llums de neó
           description: Diferents estils i colors
         - title: Shimmer Wall
-          description: Múltiples opcions
+          description: 3 opcions
     - icon: "🎁"
       accent_class: border-custom-gold
       button_class: bg-custom-gold
@@ -59,7 +59,7 @@ customization:
         - title: Carro candy bar + elements decoratius
           price: 60€
         - title: Taula candy bar + elements decoratius
-          price: 60€
+          price: 50€
     - icon: "🎨"
       accent_class: border-custom-mint-dark
       button_class: bg-custom-mint-dark
