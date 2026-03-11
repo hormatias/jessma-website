@@ -1,0 +1,13 @@
+title: Jessma Ilusiones
+description: Decoracion de eventos en Andorra
+url: "https://jessma.net"
+baseurl: ""
+lang: es
+timezone: Europe/Andorra
+permalink: pretty
+markdown: kramdown
+plugins: []
+exclude:
+  - Dockerfile
+  - docker-compose.yml
+  - nginx

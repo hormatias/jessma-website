@@ -1,0 +1,134 @@
+<script src="{{ '/js/vendor/splide.min.js' | relative_url }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const languageDropdowns = document.querySelectorAll('[data-language-dropdown]');
+
+    if (menuBtn && mobileMenu) {
+      menuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+    }
+
+    languageDropdowns.forEach((dropdown) => {
+      const toggle = dropdown.querySelector('[data-language-toggle]');
+      const menu = dropdown.querySelector('[data-language-menu]');
+
+      if (!toggle || !menu) {
+        return;
+      }
+
+      toggle.addEventListener('click', (event) => {
+        event.stopPropagation();
+        const isOpen = !menu.classList.contains('hidden');
+
+        languageDropdowns.forEach((otherDropdown) => {
+          const otherMenu = otherDropdown.querySelector('[data-language-menu]');
+          const otherToggle = otherDropdown.querySelector('[data-language-toggle]');
+          if (otherMenu && otherToggle) {
+            otherMenu.classList.add('hidden');
+            otherToggle.setAttribute('aria-expanded', 'false');
+          }
+        });
+
+        menu.classList.toggle('hidden', isOpen);
+        toggle.setAttribute('aria-expanded', String(!isOpen));
+      });
+    });
+
+    document.addEventListener('click', (event) => {
+      languageDropdowns.forEach((dropdown) => {
+        const menu = dropdown.querySelector('[data-language-menu]');
+        const toggle = dropdown.querySelector('[data-language-toggle]');
+
+        if (!menu || !toggle) {
+          return;
+        }
+
+        if (!dropdown.contains(event.target)) {
+          menu.classList.add('hidden');
+          toggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (event.key !== 'Escape') {
+        return;
+      }
+
+      languageDropdowns.forEach((dropdown) => {
+        const menu = dropdown.querySelector('[data-language-menu]');
+        const toggle = dropdown.querySelector('[data-language-toggle]');
+
+        if (menu && toggle) {
+          menu.classList.add('hidden');
+          toggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    });
+
+    const menuLinks = document.querySelectorAll('a[href^="#"]');
+    menuLinks.forEach((link) => {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        const targetSection = document.querySelector(targetId);
+
+        if (targetSection) {
+          const headerHeight = document.querySelector('header').offsetHeight;
+          const targetPosition = targetSection.offsetTop - headerHeight;
+
+          window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+          });
+
+          if (mobileMenu) {
+            mobileMenu.classList.add('hidden');
+          }
+        }
+      });
+    });
+
+    if (document.querySelector('.splide')) {
+      new Splide('.splide', {
+        type: 'loop',
+        perPage: 1,
+        autoplay: true,
+        pauseOnHover: true,
+      }).mount();
+    }
+
+    if (typeof lightbox !== 'undefined') {
+      lightbox.option({
+        resizeDuration: 200,
+        wrapAround: true,
+        disableScrolling: true
+      });
+    }
+
+    const observer = new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => {
+        if (!mutation.addedNodes.length) {
+          return;
+        }
+
+        const lightbox = document.getElementById('lightbox');
+        if (lightbox && lightbox.style.display !== 'none') {
+          const closeButtonContainer = lightbox.querySelector('.lb-closeContainer');
+          const outerContainer = lightbox.querySelector('.lb-outerContainer');
+
+          if (closeButtonContainer && outerContainer && closeButtonContainer.parentNode !== outerContainer) {
+            outerContainer.appendChild(closeButtonContainer);
+          }
+        }
+      });
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
+  });
+</script>

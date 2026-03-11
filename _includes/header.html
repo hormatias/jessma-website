@@ -1,0 +1,75 @@
+{% assign t = site.data.translations[page.locale] %}
+{% assign site_data = site.data.site %}
+{% assign home_path = page.localized_paths[page.locale] %}
+{% assign is_home = page.page_type == 'home' %}
+{% assign locale_order = "es,ca,en" | split: "," %}
+<header class="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
+  <nav class="max-w-5xl mx-auto px-6 py-2 flex justify-between items-center">
+    <div class="hidden md:flex items-center">
+      <a href="{{ home_path | relative_url }}{% if is_home %}#inicio{% endif %}" class="flex items-center">
+        <img src="{{ site_data.logo_main | relative_url }}" alt="Jessma" class="h-28 w-auto">
+      </a>
+    </div>
+    <div class="hidden md:flex items-center space-x-6">
+      <a href="{% if is_home %}#inicio{% else %}{{ home_path | relative_url }}{% endif %}" class="text-gray-700 hover:text-custom-pink font-medium">{{ t.nav.home }}</a>
+      <a href="{% if is_home %}#decoraciones{% else %}{{ home_path | relative_url }}#decoraciones{% endif %}" class="text-gray-700 hover:text-custom-pink font-medium">{{ t.nav.decorations }}</a>
+      <a href="{% if is_home %}#packs{% else %}{{ home_path | relative_url }}#packs{% endif %}" class="text-gray-700 hover:text-custom-pink font-medium">{{ t.nav.packs }}</a>
+      <a href="{% if is_home %}#conoceme{% else %}{{ home_path | relative_url }}#conoceme{% endif %}" class="text-gray-700 hover:text-custom-pink font-medium">{{ t.nav.about }}</a>
+      <a href="{% if is_home %}#contacto{% else %}{{ home_path | relative_url }}#contacto{% endif %}" class="text-gray-700 hover:text-custom-pink font-medium">{{ t.nav.contact }}</a>
+      <div class="relative" data-language-dropdown>
+        <button type="button" class="flex items-center gap-2 rounded-full border border-custom-gold px-4 py-2 text-sm font-semibold text-custom-gold transition-colors duration-300 hover:bg-custom-gold hover:text-white" data-language-toggle aria-expanded="false" aria-haspopup="true">
+          <span>{{ page.locale | upcase }}</span>
+          <svg class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.51a.75.75 0 01-1.08 0l-4.25-4.51a.75.75 0 01.02-1.06z" clip-rule="evenodd"></path>
+          </svg>
+        </button>
+        <div class="absolute right-0 top-full z-50 mt-2 hidden min-w-44 overflow-hidden rounded-2xl border border-custom-mint-light bg-white shadow-xl" data-language-menu>
+          {% for locale_code in locale_order %}
+            {% assign locale_path = page.localized_paths[locale_code] %}
+            {% assign locale_translation = site.data.translations[locale_code] %}
+            <a href="{{ locale_path | relative_url }}" hreflang="{{ locale_code }}" class="flex items-center justify-between px-4 py-3 text-sm transition-colors duration-200 {% if locale_code == page.locale %}bg-custom-mint-light/40 text-gray-900{% else %}text-gray-700 hover:bg-custom-mint-light/30{% endif %}">
+              <span>{{ locale_translation.language_name }}</span>
+              <span class="font-semibold text-custom-gold">{{ locale_code | upcase }}</span>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="md:hidden flex-1"></div>
+    <div class="md:hidden flex justify-center flex-1">
+      <a href="{{ home_path | relative_url }}{% if is_home %}#inicio{% endif %}" class="flex items-center">
+        <img src="{{ site_data.logo_main | relative_url }}" alt="Jessma" class="h-20 w-auto">
+      </a>
+    </div>
+    <div class="md:hidden flex justify-end flex-1 items-center gap-2">
+      <div class="relative" data-language-dropdown>
+        <button type="button" class="flex items-center gap-1 rounded-full border border-custom-gold px-3 py-1.5 text-xs font-semibold text-custom-gold" data-language-toggle aria-expanded="false" aria-haspopup="true">
+          <span>{{ page.locale | upcase }}</span>
+          <svg class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.51a.75.75 0 01-1.08 0l-4.25-4.51a.75.75 0 01.02-1.06z" clip-rule="evenodd"></path>
+          </svg>
+        </button>
+        <div class="absolute right-0 top-full z-50 mt-2 hidden min-w-36 overflow-hidden rounded-2xl border border-custom-mint-light bg-white shadow-xl" data-language-menu>
+          {% for locale_code in locale_order %}
+            {% assign locale_path = page.localized_paths[locale_code] %}
+            {% assign locale_translation = site.data.translations[locale_code] %}
+            <a href="{{ locale_path | relative_url }}" hreflang="{{ locale_code }}" class="flex items-center justify-between px-4 py-3 text-xs transition-colors duration-200 {% if locale_code == page.locale %}bg-custom-mint-light/40 text-gray-900{% else %}text-gray-700 hover:bg-custom-mint-light/30{% endif %}">
+              <span>{{ locale_translation.language_name }}</span>
+              <span class="font-semibold text-custom-gold">{{ locale_code | upcase }}</span>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+      <button id="menu-btn" class="text-gray-800 focus:outline-none" aria-label="Menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+      </button>
+    </div>
+  </nav>
+  <div id="mobile-menu" class="hidden md:hidden bg-white/95 backdrop-blur-sm">
+    <a href="{% if is_home %}#inicio{% else %}{{ home_path | relative_url }}{% endif %}" class="block py-2 px-4 text-sm text-gray-700 hover:bg-custom-pink hover:text-white font-medium">{{ t.nav.home }}</a>
+    <a href="{% if is_home %}#decoraciones{% else %}{{ home_path | relative_url }}#decoraciones{% endif %}" class="block py-2 px-4 text-sm text-gray-700 hover:bg-custom-pink hover:text-white font-medium">{{ t.nav.decorations }}</a>
+    <a href="{% if is_home %}#packs{% else %}{{ home_path | relative_url }}#packs{% endif %}" class="block py-2 px-4 text-sm text-gray-700 hover:bg-custom-pink hover:text-white font-medium">{{ t.nav.packs }}</a>
+    <a href="{% if is_home %}#conoceme{% else %}{{ home_path | relative_url }}#conoceme{% endif %}" class="block py-2 px-4 text-sm text-gray-700 hover:bg-custom-pink hover:text-white font-medium">{{ t.nav.about }}</a>
+    <a href="{% if is_home %}#contacto{% else %}{{ home_path | relative_url }}#contacto{% endif %}" class="block py-2 px-4 text-sm text-gray-700 hover:bg-custom-pink hover:text-white font-medium">{{ t.nav.contact }}</a>
+  </div>
+</header>

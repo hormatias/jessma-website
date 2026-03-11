@@ -1,0 +1,71 @@
+{% assign t = site.data.translations[page.locale] %}
+{% assign seo = t.seo[page.seo_key] %}
+{% assign site_data = site.data.site %}
+<!DOCTYPE html>
+<html lang="{{ page.locale }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ seo.title }}</title>
+  <meta name="description" content="{{ seo.description }}">
+  <meta name="keywords" content="{{ seo.keywords }}">
+  <meta name="author" content="{{ site_data.brand }}">
+  <meta name="robots" content="{{ page.robots | default: 'index, follow' }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.localized_paths[page.locale] }}">
+  <link rel="icon" href="{{ site_data.logo_icon | relative_url }}" type="image/png">
+  <link rel="apple-touch-icon" href="{{ site_data.logo_icon | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Playfair+Display:wght@700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/css/splide.min.css' | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+  <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
+  {% for path in page.localized_paths %}
+  <link rel="alternate" hreflang="{{ path[0] }}" href="{{ site.url }}{{ path[1] }}">
+  {% endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ page.localized_paths[page.locale] }}">
+  <meta property="og:title" content="{{ seo.og_title }}">
+  <meta property="og:description" content="{{ seo.og_description }}">
+  <meta property="og:image" content="{{ site.url }}{{ site_data.og_image }}">
+
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="{{ site.url }}{{ page.localized_paths[page.locale] }}">
+  <meta property="twitter:title" content="{{ seo.og_title }}">
+  <meta property="twitter:description" content="{{ seo.og_description }}">
+  <meta property="twitter:image" content="{{ site.url }}{{ site_data.og_image }}">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'custom-pink': '#2DD4BF',
+            'custom-mint': '#A8E6CF',
+            'custom-mint-light': '#D4F1F4',
+            'custom-mint-dark': '#7FB069',
+            'custom-gold': '#D4AF37',
+            'custom-gold-light': '#FFF8DC',
+            'custom-green': '#D1E7DD',
+            'custom-green-dark': '#4A6741',
+          },
+          fontFamily: {
+            'playfair': ['"Playfair Display"', 'serif'],
+            'poppins': ['Poppins', 'sans-serif'],
+            'dancing': ['"Dancing Script"', 'cursive']
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="{{ page.body_class | default: 'bg-white font-poppins' }}">
+  {% include header.html %}
+  {{ content }}
+  {% include footer.html %}
+  {% include scripts.html %}
+</body>
+</html>

@@ -1,0 +1,18 @@
+{% assign t = site.data.translations[page.locale] %}
+{% assign site_data = site.data.site %}
+{% assign home_path = page.localized_paths[page.locale] %}
+<footer class="relative overflow-hidden pt-12 pb-8">
+  <div class="absolute inset-0 z-0">
+    <img src="{{ site_data.background_image | relative_url }}" alt="" class="w-full h-full object-cover">
+    <div class="absolute inset-0"></div>
+  </div>
+  <div class="relative z-10 container mx-auto px-6 text-center text-gray-800">
+    <div class="mb-8">
+      <a href="{{ home_path | relative_url }}{% if page.page_type == 'home' %}#inicio{% endif %}" class="inline-block">
+        <img src="{{ site_data.logo_main | relative_url }}" alt="Jessma" class="h-24 w-auto bg-white/50 rounded-full p-2">
+      </a>
+    </div>
+    <p class="text-gray-700">&copy; {{ site.time | date: '%Y' }} Jessma.</p>
+    <p class="text-gray-600 text-sm mt-4">{{ t.footer.made_with }} ❤️ {{ t.footer.made_by }} <a href="{{ site_data.author_url }}" target="_blank" rel="noopener noreferrer" class="underline hover:text-custom-pink">{{ site_data.author_name }}</a></p>
+  </div>
+</footer>

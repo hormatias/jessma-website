@@ -1,0 +1,124 @@
+language_name: English
+language_switch:
+  short: ES
+  label: Espanol
+nav:
+  home: Home
+  decorations: Decor
+  packs: Packages
+  about: About
+  contact: Contact
+seo:
+  home:
+    title: Event Decor in Andorra
+    description: Event decor specialist in Andorra. I create magical settings for birthdays, christenings, corporate events, and special celebrations. I turn your ideas into reality.
+    keywords: event decor andorra, party decor andorra, birthdays, christenings, corporate events, balloon decor, balloon arch, shimmer wall, jessma, jessma ilusiones
+    og_title: Event Decor in Andorra
+    og_description: I turn your events into magical experiences with custom, thoughtfully crafted decor.
+  error_404:
+    title: Page not found - Event Decor in Andorra
+    description: The page you are looking for does not exist. Explore our event decor services in Andorra.
+    og_title: Page not found - Event Decor in Andorra
+    og_description: The page you are looking for does not exist. Explore our event decor services in Andorra.
+hero:
+  lead: Creating more than decor...
+  headline: Turning ideas into memorable moments
+  description: I turn your events into magical experiences with custom, thoughtfully crafted decor
+  primary_cta: View Decor
+  secondary_cta: View Packages
+decorations:
+  title: Decor
+  subtitle: Your most special moments, shaped with creativity and care
+packs:
+  title: Package Options
+  subtitle: Choose the package that fits your celebration best
+  cta: Contact
+customization:
+  title: Customization and Extras
+  cards:
+    - icon: "✨"
+      accent_class: border-custom-pink
+      button_class: bg-custom-pink
+      title: Styles to Choose From
+      button_label: View options
+      button_url: "https://wa.me/376679874?text=Hi%20Jessica,%20I%20am%20contacting%20you%20through%20your%20website.%20I%20would%20love%20to%20learn%20about%20the%20different%20arch,%20neon,%20and%20Shimmer%20Wall%20options"
+      items:
+        - title: Decorative arches
+          description: Several styles available
+        - title: Neon lights
+          description: Different looks and colors
+        - title: Shimmer wall
+          description: Multiple backdrop options
+    - icon: "🎁"
+      accent_class: border-custom-gold
+      button_class: bg-custom-gold
+      title: Optional Extras
+      button_label: View extras
+      button_url: "https://wa.me/376679874?text=Hi%20Jessica,%20I%20am%20contacting%20you%20through%20your%20website.%20I%20would%20like%20more%20information%20about%20optional%20extras%20for%20my%20event"
+      items:
+        - title: Themed decor
+          link_label: Price on request
+          link_url: "https://wa.me/376679874?text=Hi%20Jessica,%20I%20am%20contacting%20you%20through%20your%20website.%20I%20would%20like%20to%20ask%20about%20pricing%20for%20vinyl%20names%20and%20themed%20decor"
+        - title: Candy cart + decorative elements
+          price: 60€
+        - title: Candy table + decorative elements
+          price: 60€
+    - icon: "🎨"
+      accent_class: border-custom-mint-dark
+      button_class: bg-custom-mint-dark
+      title: Custom Color Palettes
+      button_label: View colors
+      button_url: "https://wa.me/376679874?text=Hi%20Jessica,%20I%20am%20contacting%20you%20through%20your%20website.%20I%20would%20like%20to%20ask%20about%20custom%20colors%20for%20my%20event"
+      items:
+        - title: Themed palettes
+          description: Tailored to your event
+        - title: Corporate colors
+          description: For branded events
+        - title: Unique combinations
+          description: Exclusive design direction
+about:
+  title: About Me
+  image_alt: Jessica - Event decor specialist
+  paragraphs:
+    - Hello. I am Jessica. I love moving people through decoration. With a background in public relations, event organization, and visual merchandising, I combine creativity and technique to bring your ideas to life.
+    - I enjoy every project and take care of every detail so a concept becomes an unforgettable decor setup. My goal is to turn your event into a magical, meaningful moment.
+contact:
+  title: Let's Talk
+  subtitle: Ready to start creating unforgettable moments? Let's talk.
+  methods:
+    whatsapp:
+      label: WhatsApp
+      value: "+376 679 874"
+      href: "https://wa.me/376679874?text=Hi%20Jessica,%20I%20am%20contacting%20you%20through%20your%20website.%20I%20would%20love%20to%20talk%20about%20the%20decor%20for%20my%20event.%20Could%20you%20help%20me%3F"
+    email:
+      label: Email
+      value: Jessmailusiones
+      href: "mailto:Jessmailusiones@gmail.com?subject=Event%20decor%20inquiry&body=Hi%20Jessica,%0A%0AI%20am%20contacting%20you%20through%20your%20website.%20I%20would%20like%20to%20ask%20about%20decor%20for%20my%20event.%20Could%20you%20share%20more%20information%20and%20pricing%3F%0A%0AThank%20you,%0A"
+    instagram:
+      label: Instagram
+      value: "@jessma_ilusiones"
+      href: "https://www.instagram.com/jessma_ilusiones"
+footer:
+  made_with: Made with
+  made_by: by
+error_404:
+  code: "404"
+  title: Oops. Page not found
+  description: The page you were looking for seems to have wandered off into the world of magical decor. No problem, there is still a lot of beautiful work to explore.
+  primary_cta: Back to Home
+  secondary_cta: Contact on WhatsApp
+  secondary_url: "https://wa.me/376679874?text=Hi%20Jessica,%20I%20am%20contacting%20you%20through%20your%20website.%20I%20would%20like%20to%20know%20more%20about%20your%20decor%20services"
+  quick_links_title: Were you looking for something specific?
+  quick_links:
+    - label: View Decor
+      anchor: decoraciones
+      button_class: bg-custom-pink
+    - label: Packages
+      anchor: packs
+      button_class: bg-custom-gold
+    - label: Customization
+      anchor: personalizacion
+      button_class: bg-custom-mint-dark
+    - label: About
+      anchor: conoceme
+      button_class: bg-gray-600

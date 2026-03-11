@@ -1,0 +1,124 @@
+language_name: Español
+language_switch:
+  short: EN
+  label: English
+nav:
+  home: Inicio
+  decorations: Decoraciones
+  packs: Packs
+  about: Conóceme
+  contact: Hablemos
+seo:
+  home:
+    title: Decoración de Eventos en Andorra
+    description: Especialista en decoración de eventos en Andorra. Creo ambientes mágicos para cumpleaños, bautizos, eventos corporativos y celebraciones especiales. Transformo tu ilusión en realidad.
+    keywords: decoración de eventos andorra, fiestas andorra, cumpleaños, bautizos, eventos corporativos, decoración con globos, arco de globos, shimmer wall, jessma, jessma ilusiones
+    og_title: Decoración de Eventos en Andorra
+    og_description: Transformo tus eventos en experiencias mágicas con decoraciones únicas y personalizadas.
+  error_404:
+    title: Página no encontrada - Decoración de Eventos en Andorra
+    description: La página que buscas no existe. Descubre nuestros servicios de decoración de eventos en Andorra.
+    og_title: Página no encontrada - Decoración de Eventos en Andorra
+    og_description: La página que buscas no existe. Descubre nuestros servicios de decoración de eventos en Andorra.
+hero:
+  lead: Creando más que decoraciones…
+  headline: ¡Convirtiendo ilusiones en realidad!
+  description: Transformo tus eventos en experiencias mágicas con decoraciones únicas y personalizadas
+  primary_cta: Ver Decoraciones
+  secondary_cta: Mis Packs
+decorations:
+  title: Decoraciones
+  subtitle: Tus momentos más especiales con creatividad y pasión
+packs:
+  title: Propuestas de Packs
+  subtitle: Elige el pack perfecto para tu evento especial
+  cta: Contactar
+customization:
+  title: Personalización y Extras
+  cards:
+    - icon: "✨"
+      accent_class: border-custom-pink
+      button_class: bg-custom-pink
+      title: Modelos a Elegir
+      button_label: Ver modelos
+      button_url: "https://wa.me/376679874?text=Hola%20Jessica,%20te%20contacto%20desde%20tu%20web.%20Me%20interesa%20conocer%20los%20diferentes%20modelos%20de%20arcos,%20luces%20y%20Shimmer%20Wall"
+      items:
+        - title: Arcos decorativos
+          description: Varios diseños disponibles
+        - title: Luces de neón
+          description: Diferentes estilos y colores
+        - title: Shimmer Wall
+          description: Múltiples opciones
+    - icon: "🎁"
+      accent_class: border-custom-gold
+      button_class: bg-custom-gold
+      title: Extras Opcionales
+      button_label: Ver extras
+      button_url: "https://wa.me/376679874?text=Hola%20Jessica,%20te%20contacto%20desde%20tu%20web.%20Me%20interesa%20informaci%C3%B3n%20sobre%20extras%20opcionales%20para%20mi%20evento"
+      items:
+        - title: Decoración temática
+          link_label: Precio a consultar
+          link_url: "https://wa.me/376679874?text=Hola%20Jessica,%20te%20contacto%20desde%20tu%20web.%20Me%20interesa%20consultar%20el%20precio%20para%20nombre%20en%20vinilo%20y%20decoraci%C3%B3n%20tem%C3%A1tica"
+        - title: Carro candy bar + elementos decorativos
+          price: 60€
+        - title: Mesa candy bar + elementos decorativos
+          price: 60€
+    - icon: "🎨"
+      accent_class: border-custom-mint-dark
+      button_class: bg-custom-mint-dark
+      title: Colores Personalizados
+      button_label: Ver colores
+      button_url: "https://wa.me/376679874?text=Hola%20Jessica,%20te%20contacto%20desde%20tu%20web.%20Me%20gustar%C3%ADa%20consultar%20sobre%20colores%20personalizados%20para%20mi%20evento"
+      items:
+        - title: Paletas temáticas
+          description: Adaptadas a tu evento
+        - title: Colores corporativos
+          description: Para empresas
+        - title: Combinaciones únicas
+          description: Diseño exclusivo
+about:
+  title: Conóceme
+  image_alt: Jessica - Decoración de eventos
+  paragraphs:
+    - ¡Hola! Soy Jessica. Me apasiona emocionar a las personas a través de mis decoraciones. Con mi formación en Relaciones Públicas, Organización de Eventos y Escaparatismo, uno creatividad y técnica para dar vida a tus ideas.
+    - Disfruto cada proyecto, cuidando cada detalle para transformar un concepto en una decoración inolvidable. Mi objetivo es convertir tu evento en un momento mágico y especial.
+contact:
+  title: Hablemos
+  subtitle: ¿Lista para empezar a crear momentos inolvidables? ¡Hablemos!
+  methods:
+    whatsapp:
+      label: WhatsApp
+      value: "+376 679 874"
+      href: "https://wa.me/376679874?text=Hola%20Jessica,%20te%20contacto%20desde%20tu%20web.%20Me%20gustar%C3%ADa%20hablar%20contigo%20sobre%20la%20decoraci%C3%B3n%20de%20mi%20evento.%20%C2%BFPodr%C3%ADas%20ayudarme%3F"
+    email:
+      label: Email
+      value: Jessmailusiones
+      href: "mailto:Jessmailusiones@gmail.com?subject=Consulta%20sobre%20decoraci%C3%B3n%20de%20eventos&body=Hola%20Jessica,%0A%0ATe%20contacto%20desde%20tu%20web.%20Me%20gustar%C3%ADa%20consultar%20sobre%20la%20decoraci%C3%B3n%20de%20mi%20evento.%20%C2%BFPodr%C3%ADas%20ayudarme%20con%20informaci%C3%B3n%20y%20presupuesto%3F%0A%0AGracias,%0A"
+    instagram:
+      label: Instagram
+      value: "@jessma_ilusiones"
+      href: "https://www.instagram.com/jessma_ilusiones"
+footer:
+  made_with: Hecho con
+  made_by: por
+error_404:
+  code: "404"
+  title: ¡Ups! Página no encontrada
+  description: La página que buscas parece haberse perdido en el mundo de las decoraciones mágicas. Pero no te preocupes, tenemos muchas cosas hermosas que mostrarte.
+  primary_cta: Volver al Inicio
+  secondary_cta: Contactar por WhatsApp
+  secondary_url: "https://wa.me/376679874?text=Hola%20Jessica,%20te%20contacto%20desde%20tu%20web.%20Me%20gustar%C3%ADa%20conocer%20m%C3%A1s%20sobre%20tus%20servicios%20de%20decoraci%C3%B3n"
+  quick_links_title: ¿Buscabas algo específico?
+  quick_links:
+    - label: Ver Decoraciones
+      anchor: decoraciones
+      button_class: bg-custom-pink
+    - label: Mis Packs
+      anchor: packs
+      button_class: bg-custom-gold
+    - label: Personalización
+      anchor: personalizacion
+      button_class: bg-custom-mint-dark
+    - label: Conóceme
+      anchor: conoceme
+      button_class: bg-gray-600
