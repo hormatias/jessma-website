@@ -64,7 +64,7 @@
           <h3 class="text-3xl font-dancing font-bold text-gray-800 mb-2">{{ pack.name[page.locale] }}</h3>
           <div class="w-16 h-0.5 bg-custom-gold mx-auto"></div>
         </div>
-        <p class="text-center text-4xl font-bold text-custom-gold mb-6">{{ pack.price }}</p>
+        <p class="text-center text-4xl font-bold text-custom-gold mb-6">{% if pack.price[page.locale] %}{{ pack.price[page.locale] }}{% else %}{{ pack.price }}{% endif %}</p>
         <ul class="text-gray-700 space-y-3 mb-6 flex-grow">
           {% for feature in pack.features[page.locale] %}
           <li class="flex items-center"><span class="text-custom-gold mr-3 font-bold text-lg">✓</span>{{ feature }}</li>
