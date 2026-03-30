@@ -46,6 +46,94 @@
   </div>
 </section>
 
+<section id="romanticas" aria-labelledby="romanticas-heading" class="relative scroll-mt-24 overflow-hidden py-20 md:py-28 bg-gradient-to-b from-[#faf7f2] via-[#fffcfa] to-[#f5eaee]">
+  <div class="pointer-events-none absolute inset-0 z-0 bg-[radial-gradient(ellipse_130%_90%_at_50%_-15%,rgba(212,175,55,0.11),transparent_58%)]" aria-hidden="true"></div>
+  <div class="pointer-events-none absolute inset-0 z-0 bg-[radial-gradient(ellipse_80%_55%_at_50%_100%,rgba(245,232,236,0.85),transparent_65%)]" aria-hidden="true"></div>
+  <div class="pointer-events-none absolute inset-0 z-[1] romantic-bg-golden-weave" aria-hidden="true"></div>
+  <div class="pointer-events-none absolute left-1/2 top-0 z-[1] h-px w-[min(90vw,42rem)] -translate-x-1/2 bg-gradient-to-r from-transparent via-custom-gold/40 to-transparent" aria-hidden="true"></div>
+
+  <div class="container relative z-[2] mx-auto px-6">
+    <div class="mx-auto mb-12 max-w-3xl text-center">
+      <p class="mb-5 inline-flex items-center gap-2 rounded-full border border-custom-gold/35 bg-white/70 px-4 py-2 font-playfair text-[0.65rem] font-semibold uppercase tracking-[0.35em] text-romantic-ink shadow-sm backdrop-blur-sm md:text-xs md:tracking-[0.4em]">
+        <span class="text-custom-gold" aria-hidden="true">✦</span>
+        {{ t.romantic.exclusive_badge }}
+        <span class="text-custom-gold" aria-hidden="true">✦</span>
+      </p>
+      <p class="mb-4 text-custom-gold text-xl tracking-[0.5em] md:text-2xl" aria-hidden="true">· · ·</p>
+      <h2 id="romanticas-heading" class="mb-5 text-5xl font-dancing font-bold text-custom-gold md:text-6xl">{{ t.romantic.title }}</h2>
+      <div class="mx-auto mb-6 h-px w-20 bg-custom-gold/80"></div>
+      <p class="font-playfair text-lg leading-relaxed text-romantic-ink/90 md:text-xl">{{ t.romantic.subtitle }}</p>
+    </div>
+
+    <div class="relative mx-auto max-w-3xl">
+      <div class="absolute -inset-px rounded-[1.75rem] bg-gradient-to-br from-custom-gold/50 via-custom-gold/15 to-custom-gold/40 opacity-80 blur-[1px]" aria-hidden="true"></div>
+      <div class="relative overflow-visible rounded-3xl border border-custom-gold/25 bg-white/90 p-8 shadow-[0_25px_60px_-15px_rgba(92,61,74,0.12)] backdrop-blur-md md:p-14">
+        <img
+          src="{{ '/img/flores-romanticas.webp' | relative_url }}"
+          alt=""
+          width="320"
+          height="320"
+          loading="lazy"
+          decoding="async"
+          aria-hidden="true"
+          class="pointer-events-none absolute -bottom-8 -left-14 z-10 w-36 -rotate-[14deg] opacity-90 sm:-bottom-10 sm:-left-16 sm:w-44 md:-bottom-12 md:-left-20 md:w-56 lg:-bottom-16 lg:-left-24 lg:w-64"
+        >
+
+        <div class="relative z-10 mb-10 text-center">
+          <p class="font-dancing text-3xl font-bold leading-snug text-custom-gold md:text-4xl">{{ t.romantic.tagline }}</p>
+          <p class="mt-4 text-sm font-medium uppercase tracking-[0.25em] text-custom-gold/70">{{ t.romantic.care_title }}</p>
+        </div>
+
+        <p class="relative z-10 mb-10 text-center text-lg leading-relaxed text-gray-700 md:text-xl">{{ t.romantic.description }}</p>
+
+        <ul class="relative z-10 mb-10 space-y-4 border-y border-custom-gold/15 py-8 text-left text-gray-700 md:px-4">
+          {% for line in t.romantic.care_items %}
+          <li class="flex gap-3 text-base leading-relaxed md:text-lg">
+            <span class="mt-0.5 shrink-0 font-playfair text-custom-gold" aria-hidden="true">❧</span>
+            <span>{{ line }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+
+        <div class="relative z-20 mx-auto h-[12.75rem] max-w-4xl sm:h-[17rem] md:h-[22rem]">
+          {% for item in site.data.romantic_decorations %}
+          {% case forloop.index %}
+            {% when 1 %}
+              {% assign romantic_card_class = "left-0 top-12 z-20 w-[42%] -rotate-[11deg] sm:left-6 sm:top-10 sm:w-[37%] md:left-10 md:top-16 md:w-[31%]" %}
+            {% when 2 %}
+              {% assign romantic_card_class = "left-1/2 top-0 z-30 w-[46%] -translate-x-1/2 rotate-[-2deg] sm:w-[40%] md:w-[34%]" %}
+            {% else %}
+              {% assign romantic_card_class = "right-0 top-14 z-20 w-[42%] rotate-[10deg] sm:right-6 sm:top-11 sm:w-[37%] md:right-10 md:top-16 md:w-[31%]" %}
+          {% endcase %}
+          <figure class="group absolute {{ romantic_card_class }} overflow-hidden rounded-[1.4rem] border-4 border-white bg-romantic-blush/70 shadow-[0_20px_45px_-18px_rgba(92,61,74,0.45)] ring-1 ring-custom-gold/15 transition-transform duration-300 hover:z-40 hover:scale-[1.03]">
+            <a href="{{ item.image | relative_url }}" data-lightbox="romanticas" data-title="{{ item.alt[page.locale] }}" class="block aspect-[3/4]">
+              <img src="{{ item.image | relative_url }}" alt="{{ item.alt[page.locale] }}" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]">
+            </a>
+          </figure>
+          {% endfor %}
+        </div>
+
+        <div class="relative z-10 mt-2 text-center sm:mt-8">
+          {% if page.locale == 'es' %}
+            {% assign romantic_wa_url = "https://wa.me/376679874?text=Hola%20Jessica%2C%20me%20gustar%C3%ADa%20crear%20una%20decoraci%C3%B3n%20rom%C3%A1ntica%20para%20sorprender%20a%20mi%20pareja.%20%C2%BFPodr%C3%ADas%20ayudarme%3F" %}
+          {% elsif page.locale == 'en' %}
+            {% assign romantic_wa_url = "https://wa.me/376679874?text=Hi%20Jessica%2C%20I%E2%80%99d%20love%20to%20create%20a%20romantic%20decoration%20to%20surprise%20my%20partner.%20Could%20you%20help%20me%3F" %}
+          {% else %}
+            {% assign romantic_wa_url = "https://wa.me/376679874?text=Hola%20Jessica%2C%20m%E2%80%99agradaria%20crear%20una%20decoraci%C3%B3%20rom%C3%A0ntica%20per%20sorprendre%20la%20meva%20parella.%20Em%20podries%20ajudar%3F" %}
+          {% endif %}
+          <a href="{{ romantic_wa_url }}" target="_blank" rel="noopener noreferrer" class="mx-auto inline-flex w-full max-w-[20rem] items-center justify-center gap-2 rounded-full bg-custom-gold px-4 py-3.5 text-center text-[0.82rem] font-bold leading-none text-white shadow-lg shadow-custom-gold/25 transition duration-300 hover:brightness-95 hover:shadow-xl hover:shadow-custom-gold/20 sm:w-auto sm:max-w-none sm:gap-2 sm:px-10 sm:py-4 sm:text-base">
+            {% include icons/whatsapp.html class="h-4 w-4 shrink-0 sm:h-5 sm:w-5" %}
+            <span class="whitespace-nowrap">{{ t.romantic.cta }}</span>
+          </a>
+          <p class="mx-auto mt-5 max-w-md text-sm leading-relaxed text-romantic-ink/75">{{ t.romantic.cta_note }}</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="mt-12 text-center text-custom-gold/60 text-lg tracking-[0.45em]" aria-hidden="true">✦ · ✦ · ✦</p>
+  </div>
+</section>
+
 <section id="packs" class="py-20 relative overflow-hidden">
   <div class="absolute inset-0 z-0">
     <img src="{{ site_data.background_image | relative_url }}" alt="" class="w-full h-full object-cover">

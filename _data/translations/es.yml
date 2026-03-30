@@ -4,7 +4,8 @@ language_switch:
   label: English
 nav:
   home: Inicio
-  decorations: Decoraciones
+  decorations: Eventos
+  romantic: Para Enamorados
   packs: Packs
   about: Conóceme
   contact: Hablemos
@@ -27,8 +28,22 @@ hero:
   primary_cta: Ver Decoraciones
   secondary_cta: Mis Packs
 decorations:
-  title: Decoraciones
+  title: Eventos
   subtitle: Tus momentos más especiales con creatividad y pasión
+romantic:
+  nav: Para Enamorados
+  exclusive_badge: Experiencia a medida
+  title: Para Enamorados
+  subtitle: "Un rincón del sitio pensado solo para parejas: propuestas íntimas, con tiempo, discreción y mucho mimo en cada detalle."
+  tagline: "¿Quieres sorprender a tu pareja?"
+  description: "Decoro el espacio que elijas para que ese momento se sienta único: luz, flores, texturas y un ambiente de magia y romanticismo hecho para vosotros."
+  care_title: Lo que hace especial este servicio
+  care_items:
+    - Escucho vuestra idea y la adapto al espacio y al tono que busquéis.
+    - Cuidado en la elección de cada elemento, como si fuera para alguien muy querido.
+    - Ritmo tranquilo y trato cercano, sin prisas de evento masivo.
+  cta: Pedir mi propuesta romántica
+  cta_note: Te respondo por WhatsApp para afinar fecha, lugar y detalles con calma.
 packs:
   title: Propuestas de Packs
   subtitle: Elige el pack perfecto para tu evento especial

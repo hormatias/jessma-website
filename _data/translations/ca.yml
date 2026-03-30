@@ -1,7 +1,8 @@
 language_name: Català
 nav:
   home: Inici
-  decorations: Decoracions
+  decorations: Esdeveniments
+  romantic: Per Enamorats
   packs: Packs
   about: Coneix-me
   contact: Parlem
@@ -24,8 +25,22 @@ hero:
   primary_cta: Veure decoracions
   secondary_cta: Els meus Packs
 decorations:
-  title: Decoracions
+  title: Esdeveniments
   subtitle: Els teus moments més especials amb creativitat i passió
+romantic:
+  nav: Per Enamorats
+  exclusive_badge: Experiència a mida
+  title: Per Enamorats
+  subtitle: "Un racó del web pensat només per parelles: propostes íntimes, amb temps, discreció i molt mimo en cada detall."
+  tagline: "Vols sorprendre la teva parella?"
+  description: "Decoro l'espai que triïs perquè aquell moment es noti únic: llum, flors, textures i un ambient de màgia i romanticisme fet per vosaltres."
+  care_title: Què fa especial aquest servei
+  care_items:
+    - Escolto la vostra idea i l'adapto a l'espai i al to que busqueu.
+    - Cura en triar cada element, com si fos per algú molt estimat.
+    - Ritme tranquil i tracte proper, sense presses d'esdeveniment massiu.
+  cta: Demanar la meva proposta romàntica
+  cta_note: Et responc per WhatsApp per acabar de definir data, lloc i detalls amb calma.
 packs:
   title: Propostes de Packs
   subtitle: Tria el pack perfecte per al teu esdeveniment especial

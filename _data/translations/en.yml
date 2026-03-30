@@ -4,7 +4,8 @@ language_switch:
   label: Spanish
 nav:
   home: Home
-  decorations: Decor
+  decorations: Events
+  romantic: For Lovers
   packs: Packs
   about: About
   contact: Contact
@@ -27,8 +28,22 @@ hero:
   primary_cta: View decor
   secondary_cta: My packs
 decorations:
-  title: Decor
+  title: Events
   subtitle: Your most special moments, brought to life with creativity and care
+romantic:
+  nav: For Lovers
+  exclusive_badge: Bespoke experience
+  title: For Lovers
+  subtitle: A corner of the site just for couples—intimate setups, time to get it right, discretion, and thoughtful care in every detail.
+  tagline: "Want to surprise your partner?"
+  description: "I'll dress the space you choose so the moment feels one-of-a-kind: light, flowers, textures, and an atmosphere of magic and romance made for the two of you."
+  care_title: What makes this service special
+  care_items:
+    - I take your idea and shape it to the setting and mood you're after.
+    - Every piece is chosen with the same care as for someone you love.
+    - A calm pace and a personal touch—nothing rushed or mass-produced.
+  cta: Request my romantic proposal
+  cta_note: I'll reply on WhatsApp so we can refine date, place, and details at an easy pace.
 packs:
   title: Packs
   subtitle: Choose the pack that fits your celebration best

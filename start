@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+# Wrapper Mac/Linux: ejecuta desde la carpeta del repo aunque llames desde otro cwd.
+cd "$(dirname "$0")" || exit 1
+exec ruby ./start.rb "$@"

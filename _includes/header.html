@@ -13,6 +13,7 @@
     <div class="hidden md:flex items-center space-x-6">
       <a href="{% if is_home %}#inicio{% else %}{{ home_path | relative_url }}{% endif %}" class="text-gray-700 hover:text-custom-pink font-medium">{{ t.nav.home }}</a>
       <a href="{% if is_home %}#decoraciones{% else %}{{ home_path | relative_url }}#decoraciones{% endif %}" class="text-gray-700 hover:text-custom-pink font-medium">{{ t.nav.decorations }}</a>
+      <a href="{% if is_home %}#romanticas{% else %}{{ home_path | relative_url }}#romanticas{% endif %}" class="text-gray-700 hover:text-custom-pink font-medium">{{ t.nav.romantic }}</a>
       <a href="{% if is_home %}#packs{% else %}{{ home_path | relative_url }}#packs{% endif %}" class="text-gray-700 hover:text-custom-pink font-medium">{{ t.nav.packs }}</a>
       <a href="{% if is_home %}#conoceme{% else %}{{ home_path | relative_url }}#conoceme{% endif %}" class="text-gray-700 hover:text-custom-pink font-medium">{{ t.nav.about }}</a>
       <a href="{% if is_home %}#contacto{% else %}{{ home_path | relative_url }}#contacto{% endif %}" class="text-gray-700 hover:text-custom-pink font-medium">{{ t.nav.contact }}</a>
@@ -68,6 +69,7 @@
   <div id="mobile-menu" class="hidden md:hidden bg-white/95 backdrop-blur-sm">
     <a href="{% if is_home %}#inicio{% else %}{{ home_path | relative_url }}{% endif %}" class="block py-2 px-4 text-sm text-gray-700 hover:bg-custom-pink hover:text-white font-medium">{{ t.nav.home }}</a>
     <a href="{% if is_home %}#decoraciones{% else %}{{ home_path | relative_url }}#decoraciones{% endif %}" class="block py-2 px-4 text-sm text-gray-700 hover:bg-custom-pink hover:text-white font-medium">{{ t.nav.decorations }}</a>
+    <a href="{% if is_home %}#romanticas{% else %}{{ home_path | relative_url }}#romanticas{% endif %}" class="block py-2 px-4 text-sm text-gray-700 hover:bg-custom-pink hover:text-white font-medium">{{ t.nav.romantic }}</a>
     <a href="{% if is_home %}#packs{% else %}{{ home_path | relative_url }}#packs{% endif %}" class="block py-2 px-4 text-sm text-gray-700 hover:bg-custom-pink hover:text-white font-medium">{{ t.nav.packs }}</a>
     <a href="{% if is_home %}#conoceme{% else %}{{ home_path | relative_url }}#conoceme{% endif %}" class="block py-2 px-4 text-sm text-gray-700 hover:bg-custom-pink hover:text-white font-medium">{{ t.nav.about }}</a>
     <a href="{% if is_home %}#contacto{% else %}{{ home_path | relative_url }}#contacto{% endif %}" class="block py-2 px-4 text-sm text-gray-700 hover:bg-custom-pink hover:text-white font-medium">{{ t.nav.contact }}</a>
