@@ -1,14 +1,8 @@
-- image: /img/romantica-habitacion-velas.webp
+- image: /img/romantica-corazon-2.webp
   alt:
-    es: Habitación romántica con velas y pétalos sobre la cama
-    en: Romantic room with candles and petals on the bed
-    ca: Habitació romàntica amb espelmes i pètals sobre el llit
-
-- image: /img/romantica-corazon-nuevo.webp
-  alt:
-    es: Sorpresa romántica con corazón decorativo, flores y pétalos
-    en: Romantic surprise with a decorative heart, flowers and petals
-    ca: Sorpresa romàntica amb cor decoratiu, flors i pètals
+    es: Montaje romántico con corazón floral, velas y pétalos
+    en: Romantic setup with a floral heart, candles and petals
+    ca: Muntatge romàntic amb cor floral, espelmes i pètals
 
 - image: /img/romantica-cama-globos-nuevo.webp
   alt:
@@ -16,11 +10,17 @@
     en: Romantic bed setup with floating balloons and lights
     ca: Llit romàntic amb globus flotants i llums
 
-- image: /img/romantica-corazon-2.webp
+- image: /img/romantica-corazon-nuevo.webp
   alt:
-    es: Montaje romántico con corazón floral, velas y pétalos
-    en: Romantic setup with a floral heart, candles and petals
-    ca: Muntatge romàntic amb cor floral, espelmes i pètals
+    es: Sorpresa romántica con corazón decorativo, flores y pétalos
+    en: Romantic surprise with a decorative heart, flowers and petals
+    ca: Sorpresa romàntica amb cor decoratiu, flors i pètals
+
+- image: /img/romantica-habitacion-velas.webp
+  alt:
+    es: Habitación romántica con velas y pétalos sobre la cama
+    en: Romantic room with candles and petals on the bed
+    ca: Habitació romàntica amb espelmes i pètals sobre el llit
 
 - image: /img/romantica-corazon-globos.webp
   alt:
