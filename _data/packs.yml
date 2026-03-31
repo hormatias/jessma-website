@@ -2,6 +2,7 @@
   name:
     es: Pack Balloon Arch
     en: Balloon Arch Pack
+    ca: Pack Balloon Arch
   features:
     es:
       - Arco decorativo
@@ -13,13 +14,20 @@
       - Balloons
       - Columns
       - Neon lights
+    ca:
+      - Arc decoratiu
+      - Globus
+      - Columnes
+      - Llums de neó
   cta_url:
     es: "https://wa.me/376679874?text=Hola%20Jessica,%20te%20contacto%20desde%20tu%20web.%20Me%20interesa%20el%20Pack%20Balloon%20Arch%20de%20120%E2%82%AC"
     en: "https://wa.me/376679874?text=Hi%20Jessica,%20I%20am%20contacting%20you%20through%20your%20website.%20I%20am%20interested%20in%20the%20Balloon%20Arch%20Pack%20for%20120%E2%82%AC"
+    ca: "https://wa.me/376679874?text=Hola%20Jessica,%20m'interessa%20el%20Pack%20Balloon%20Arch%20de%20120%E2%82%AC"
 - price: 150€
   name:
     es: Pack Shimmer Wall
     en: Shimmer Wall Pack
+    ca: Pack Shimmer Wall
   features:
     es:
       - Shimmer Wall
@@ -31,13 +39,20 @@
       - Balloons
       - Columns
       - Neon lights
+    ca:
+      - Shimmer Wall
+      - Globus
+      - Columnes
+      - Llums de neó
   cta_url:
     es: "https://wa.me/376679874?text=Hola%20Jessica,%20te%20contacto%20desde%20tu%20web.%20Me%20interesa%20el%20Pack%20Shimmer%20Wall%20de%20150%E2%82%AC"
     en: "https://wa.me/376679874?text=Hi%20Jessica,%20I%20am%20contacting%20you%20through%20your%20website.%20I%20am%20interested%20in%20the%20Shimmer%20Wall%20Pack%20for%20150%E2%82%AC"
+    ca: "https://wa.me/376679874?text=Hola%20Jessica,%20m'interessa%20el%20Pack%20Shimmer%20Wall%20de%20150%E2%82%AC"
 - price: 180€
   name:
     es: Pack Premium
     en: Premium Pack
+    ca: Pack Premium
   features:
     es:
       - Arco decorativo
@@ -51,6 +66,13 @@
       - Shimmer wall backdrop
       - Columns
       - Neon lights
+    ca:
+      - Arc decoratiu
+      - Globus
+      - Paret Shimmer Wall
+      - Columnes
+      - Llums de neó
   cta_url:
     es: "https://wa.me/376679874?text=Hola%20Jessica,%20te%20contacto%20desde%20tu%20web.%20Me%20interesa%20el%20Pack%20Premium%20de%20180%E2%82%AC"
     en: "https://wa.me/376679874?text=Hi%20Jessica,%20I%20am%20contacting%20you%20through%20your%20website.%20I%20am%20interested%20in%20the%20Premium%20Pack%20for%20180%E2%82%AC"
+    ca: "https://wa.me/376679874?text=Hola%20Jessica,%20m'interessa%20el%20Pack%20Premium%20de%20180%E2%82%AC"
