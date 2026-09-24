@@ -1,90 +1,62 @@
 fr:
-  - image: /img/cumpleanos_65_shimmer_wall_dorado.jpg
-    title: 65e anniversaire
-    alt: Décoration pour un 65e anniversaire avec mur scintillant doré, ballons assortis et enseigne lumineuse
-    description: Mur scintillant doré, ballons assortis et enseigne lumineuse
-  - image: /img/baby_shower_arco_peluche_baby.jpg
-    title: Baby shower
-    alt: Baby shower avec arche décorative, ballons assortis, peluche et cubes « Baby »
-    description: Arche décorative, ballons assortis, enseigne lumineuse, peluche et cubes « Baby »
-  - image: /img/cumpleanos_18_shimmer_wall_numero_iluminado.jpg
-    title: 18e anniversaire
-    alt: Décoration pour un 18e anniversaire avec mur scintillant rose, plumes, ballons et numéro 18 lumineux
-    description: Mur scintillant rose pâle, ballons assortis, enseigne lumineuse, plumes et numéro 18 lumineux
-  - image: /img/bautizo_candy_bar_oso_globo_aerostatico.jpg
-    title: Baptême
-    alt: Baptême avec chariot candy bar, ours en peluche et montgolfière en ballons
-    description: Chariot et étagère candy bar décorés, avec un ours dans un panier et une montgolfière en ballons
-  - image: /img/ceremonia_boda_arco_seda_flores.jpg
-    title: Cérémonie de mariage
-    alt: Cérémonie de mariage avec arche drapée de soie, fleurs et lierre
-    description: Arche décorative habillée de tissus de soie, de fleurs et de lierre artificiel
-  - image: /img/cumpleanos_tematico_guerreras_kpop.jpg
-    title: Anniversaire à thème Guerrières K-pop
-    alt: Anniversaire Guerrières K-pop avec mur scintillant rose et numéro 7 lumineux
-    description: Arches décoratives à thème, mur scintillant rose pâle, ballons assortis et numéro 7 lumineux
-  - image: /img/photocall_navidad_globos.jpg
-    title: Décor photo de Noël
-    alt: Décor photo de Noël avec mur de ballons et décorations festives
-    description: Mur de ballons et décorations de Noël
-  - image: /img/evento_corporativo_columnas_empresa.jpg
-    title: Événement d'entreprise
-    alt: Événement d'entreprise avec colonnes décoratives aux couleurs de la société
-    description: Colonnes décoratives aux couleurs de l'entreprise
-  - image: /img/publicidad_comercio_soportes_empresa.jpg
-    title: Promotion commerciale
-    alt: Promotion commerciale avec supports décoratifs et ballons aux couleurs de l'entreprise
-    description: Supports décoratifs avec ballons aux couleurs de l'entreprise
-  - image: /img/cena_hotel_fin_de_ano_globos.jpg
-    title: Dîner du réveillon à l'hôtel
-    alt: Dîner du réveillon à l'hôtel avec d'élégants murs de ballons
-    description: Murs de ballons aux tons élégants
-  - image: /img/cumpleanos_cortina_globos_fachada.jpg
+  - image: /img/cumpleanos-arcos-beige-neon.webp
     title: Anniversaire
-    alt: Décoration d'anniversaire avec rideau de ballons sur la façade
-    description: Rideau de ballons sur la façade
-  - image: /img/evento_especial_arco_globos_diagonal.jpg
-    title: Événement spécial
-    alt: Événement spécial avec arche de ballons en diagonale
-    description: Arche décorative de ballons en diagonale
-  - image: /img/cumpleanos_18_arco_funda_vinilo.jpg
+    alt: Décoration d'anniversaire avec arches beiges, enseigne lumineuse, fleurs artificielles et feuilles en papier kraft
+    description: Arches décoratives avec housses beiges, enseigne lumineuse, fleurs artificielles et feuilles en papier kraft
+  - image: /img/cumpleanos-18-shimmer-rosa.webp
     title: 18e anniversaire
-    alt: Décoration pour un 18e anniversaire avec arche décorative et prénom en vinyle
-    description: Arche décorative avec housse et ballons, prénom et numéro personnalisés en vinyle
-  - image: /img/decoracion_floral_arcos_columnas.jpg
-    title: Décoration florale
-    alt: Décoration florale avec arches et colonnes
-    description: Arches décoratives ornées de fleurs artificielles et colonnes avec plantes retombantes
-  - image: /img/cumpleanos_50_shimmer_wall_fucsia_negro.jpg
-    title: 50e anniversaire
-    alt: Décoration pour un 50e anniversaire avec mur scintillant et ballons fuchsia et noirs
-    description: Mur scintillant argenté avec ballons fuchsia et noirs
-  - image: /img/decoracion_tematica_halloween_trono.jpg
-    title: Décoration à thème Halloween
-    alt: Décoration d'Halloween avec trône et ballons
-    description: Trône squelette associé à des ballons noirs et rouges et à des décorations à thème
-  - image: /img/bautizo_arco_globos_rosas_perlas.jpg
-    title: Baptême
-    alt: Baptême avec arche de ballons roses et nacrés
-    description: Arche décorative avec ballons roses et nacrés, prénom en vinyle et colonne avec support
-  - image: /img/cumpleanos_25_arco_lila_plateado.jpg
-    title: 25e anniversaire
-    alt: Décoration pour un 25e anniversaire avec ballons lilas et argentés
-    description: Arche décorative avec ballons lilas et argentés, prénom en vinyle et colonne assortie
-  - image: /img/publicidad_empresa_caballete_globos.jpg
-    title: Promotion commerciale
-    alt: Promotion commerciale avec chevalet et ballons
-    description: Chevalet décoré de ballons
-  - image: /img/cumpleanos_tematico_arcos_neon.jpg
-    title: Anniversaire à thème
-    alt: Anniversaire à thème avec arches et enseigne lumineuse
-    description: Arches décoratives avec housses personnalisées, enseigne lumineuse sur mesure et étagère candy bar
+    alt: Décoration pour un 18e anniversaire avec mur scintillant rose, ballons, enseigne lumineuse, plumes et numéro 18 lumineux
+    description: Mur scintillant rose avec ballons assortis, enseigne lumineuse, plumes et numéro 18 lumineux
+  - image: /img/team-building-casa-de-papel.webp
+    title: Événement de team building Casa de Papel
+    alt: Événement de team building Casa de Papel avec arche ronde et ballons assortis
+    description: Arche ronde de 2 mètres avec ballons assortis
+  - image: /img/boda-arco-seda-flores-pasillo.webp
+    title: Mariage
+    alt: Mariage avec arche drapée de soie et de fleurs artificielles, et détails floraux et de tulle sur les bancs de l'allée
+    description: Arche habillée de soie et de fleurs artificielles, avec fleurs et tulle aux coins des bancs de l'allée
+  - image: /img/espejo-boda-flores-personalizado.webp
+    title: Miroir de mariage
+    alt: Miroir de mariage décoré de fleurs et de vinyle personnalisé
+    description: Miroir avec détails floraux et vinyle personnalisé
+  - image: /img/cumpleanos-stitch-arco-candy-bar.webp
+    title: Anniversaire à thème Stitch
+    alt: Anniversaire à thème Stitch avec arche décorée, ballons hawaïens et chariot candy bar
+    description: Arche avec housse à thème, ballons assortis avec feuilles hawaïennes et chariot candy bar
+  - image: /img/boda-exterior-arco-corazon.webp
+    title: Mariage en plein air
+    alt: Mariage en plein air avec arche en cœur de fleurs blanches et rouges, autel drapé de soie et chaises ornées de tulle
+    description: Arche en cœur avec fleurs artificielles blanches et rouges, table d'autel drapée de soie, chaises avec tulle et gypsophile
+  - image: /img/evento-corporativo-globos-numero-6.webp
+    title: Célébration d'entreprise
+    alt: Célébration d'entreprise avec composition abstraite de ballons aux couleurs de la société et numéro 6 lumineux
+    description: Composition abstraite de ballons aux couleurs de l'entreprise avec numéro 6 lumineux
+  - image: /img/comunion-arco-blanco-flores.webp
+    title: Première communion
+    alt: Première communion avec arche blanche, ballons clairs, fleurs et colonne à support doré
+    description: Arche ronde de 2 mètres avec housse blanche, ballons clairs, fleurs, vinyle personnalisé et colonne à support doré
+  - image: /img/comunion-estilo-marinero-arcos.webp
+    title: Première communion à thème marin
+    alt: Première communion à thème marin avec arches bleues et blanches, vinyle personnalisé et accessoires marins
+    description: Arches avec housses bleues et blanches, vinyle personnalisé, ballons assortis et accessoires marins
+  - image: /img/carro-candy-bar-globos.webp
+    title: Chariot candy bar
+    alt: Chariot candy bar avec guirlande de ballons et paniers en osier
+    description: Chariot candy bar pour tout type d'événement, avec guirlande de ballons et paniers en osier
+  - image: /img/cumpleanos-30-arco-rojo-neon.webp
+    title: 30e anniversaire
+    alt: 30e anniversaire avec arche rouge, enseigne lumineuse et ballons bordeaux
+    description: Arche avec housse rouge et enseigne lumineuse, accompagnée de ballons bordeaux
+  - image: /img/revelacion-genero-arco-oso-globos.webp
+    title: Révélation du sexe du bébé
+    alt: Révélation du sexe du bébé avec arche beige, ours en peluche sur un nuage de ballons et boîtes décorées
+    description: Arche beige avec vinyle personnalisé, ours sur un nuage de ballons et boîtes remplies de ballons assortis
+  - image: /img/cumpleanos-18-shimmer-plateado.webp
+    title: 18e anniversaire
+    alt: 18e anniversaire avec mur scintillant argenté, enseigne lumineuse et ballons assortis
+    description: Mur scintillant argenté avec enseigne lumineuse et ballons assortis
   - image: /img/romantica-corazon-2.webp
     alt: Décoration romantique avec cœur floral, bougies et pétales
-  - image: /img/romantica-cama-globos-nuevo.webp
-    alt: Lit romantique avec ballons flottants et lumières
-  - image: /img/romantica-corazon-nuevo.webp
-    alt: Surprise romantique avec cœur décoratif, fleurs et pétales
   - image: /img/decoracion-romantica-6388.webp
     alt: Décoration romantique avec ballons rouges, bougies et pétales sur le lit
   - image: /img/decoracion-romantica-6845.webp
