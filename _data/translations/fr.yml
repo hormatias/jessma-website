@@ -1,0 +1,141 @@
+language_name: Français
+language_switch:
+  short: ES
+  label: Espagnol
+nav:
+  home: Accueil
+  decorations: Événements
+  romantic: Pour les amoureux
+  packs: Formules
+  about: À propos
+  contact: Contact
+seo:
+  home:
+    title: Décoration d'événements en Andorre
+    description: Spécialiste de la décoration d'événements en Andorre. Je crée des ambiances magiques pour les anniversaires, cérémonies, baptêmes, baby showers, révélations de sexe, communions, événements d'entreprise et célébrations à thème.
+    keywords: décoration événements andorre, fêtes andorre, anniversaires, baptêmes, événements entreprise, décoration ballons, arche ballons, shimmer wall, jessma
+    og_title: Décoration d'événements en Andorre
+    og_description: Je transforme vos événements en expériences magiques grâce à des décorations uniques et personnalisées.
+  error_404:
+    title: Page introuvable - Décoration d'événements en Andorre
+    description: La page recherchée n'existe pas. Découvrez nos services de décoration d'événements en Andorre.
+    og_title: Page introuvable - Décoration d'événements en Andorre
+    og_description: La page recherchée n'existe pas. Découvrez nos services de décoration d'événements en Andorre.
+hero:
+  lead: Bien plus que de la décoration…
+  headline: Des rêves qui deviennent réalité !
+  description: Je transforme vos événements en expériences magiques grâce à des décorations uniques et personnalisées.
+  primary_cta: Voir les décorations
+  secondary_cta: Mes formules
+decorations:
+  title: Événements
+  subtitle: Vos plus beaux moments sublimés avec créativité et passion
+romantic:
+  nav: Pour les amoureux
+  exclusive_badge: Expérience sur mesure
+  title: Pour les amoureux
+  subtitle: "Un espace pensé pour les couples : des propositions intimes, réalisées avec discrétion et soin jusque dans les moindres détails."
+  tagline: Envie de surprendre votre partenaire ?
+  description: "Je décore l'espace de votre choix pour rendre ce moment unique : lumière, fleurs, textures et une ambiance magique et romantique rien que pour vous."
+  care_title: Ce qui rend ce service spécial
+  care_items:
+    - J'écoute votre idée et l'adapte au lieu et à l'ambiance souhaitée.
+    - Chaque élément est choisi avec le plus grand soin.
+    - Un rythme serein et un accompagnement personnalisé.
+  cta: Demander une proposition
+  cta_note: Je vous répondrai sur WhatsApp pour définir tranquillement la date, le lieu et les détails.
+  hotel_title: Envie de compléter votre escapade romantique ?
+  hotel_note: Au cœur d'Andorre-la-Vieille, à l'Hotel Starc****, combinez un merveilleux séjour et une décoration très spéciale pour surprendre votre partenaire.
+packs:
+  title: Nos formules
+  subtitle: Choisissez la formule idéale pour votre événement
+  cta: Contacter
+customization:
+  title: Personnalisation et options
+  cards:
+    - icon: "✨"
+      accent_class: border-custom-pink
+      button_class: bg-custom-pink
+      title: Modèles au choix
+      button_label: Voir les modèles
+      button_url: "https://wa.me/376679874?text=Bonjour%20Jessica,%20je%20vous%20contacte%20depuis%20votre%20site.%20Je%20souhaite%20découvrir%20les%20modèles%20d'arches,%20de%20lumières%20et%20de%20Shimmer%20Wall"
+      items:
+        - title: Arches décoratives
+          description: Plusieurs modèles disponibles
+        - title: Lumières néon
+          description: Différents styles et couleurs
+        - title: Shimmer Wall
+          description: 3 options
+    - icon: "🎁"
+      accent_class: border-custom-gold
+      button_class: bg-custom-gold
+      title: Options supplémentaires
+      button_label: Voir les options
+      button_url: "https://wa.me/376679874?text=Bonjour%20Jessica,%20je%20souhaite%20en%20savoir%20plus%20sur%20les%20options%20pour%20mon%20événement"
+      items:
+        - title: Décoration à thème
+          link_label: Prix sur demande
+          link_url: "https://wa.me/376679874?text=Bonjour%20Jessica,%20je%20souhaite%20connaître%20le%20prix%20des%20noms%20en%20vinyle%20et%20de%20la%20décoration%20à%20thème"
+        - title: Chariot candy bar et éléments décoratifs
+          price: 60€
+        - title: Table candy bar et éléments décoratifs
+          price: 50€
+    - icon: "🎨"
+      accent_class: border-custom-mint-dark
+      button_class: bg-custom-mint-dark
+      title: Couleurs personnalisées
+      button_label: Voir les couleurs
+      button_url: "https://wa.me/376679874?text=Bonjour%20Jessica,%20je%20souhaite%20des%20couleurs%20personnalisées%20pour%20mon%20événement"
+      items:
+        - title: Palettes à thème
+          description: Adaptées à votre événement
+        - title: Couleurs d'entreprise
+          description: Pour les entreprises
+        - title: Combinaisons uniques
+          description: Création exclusive
+about:
+  title: À propos
+  image_alt: Jessica - Décoration d'événements
+  paragraphs:
+    - Bonjour ! Je suis Jessica. J'adore faire vivre des émotions grâce à mes décorations. Formée en relations publiques, organisation d'événements et décoration de vitrines, j'allie créativité et technique pour donner vie à vos idées.
+    - J'aime chaque projet et prends soin de chaque détail pour transformer une idée en décoration inoubliable. Mon objectif est de faire de votre événement un moment magique et spécial.
+contact:
+  title: Parlons-en
+  subtitle: Prêts à créer des moments inoubliables ? Parlons-en !
+  methods:
+    whatsapp:
+      label: WhatsApp
+      value: "+376 679 874"
+      href: "https://wa.me/376679874?text=Bonjour%20Jessica,%20je%20vous%20contacte%20depuis%20votre%20site.%20J'aimerais%20parler%20de%20la%20décoration%20de%20mon%20événement.%20Pouvez-vous%20m'aider%20?"
+    email:
+      label: E-mail
+      value: Jessmailusiones
+      href: "mailto:Jessmailusiones@gmail.com?subject=Demande%20de%20décoration%20d'événement&body=Bonjour%20Jessica,%0A%0AJ'aimerais%20des%20informations%20et%20un%20devis%20pour%20la%20décoration%20de%20mon%20événement.%0A%0AMerci,%0A"
+    instagram:
+      label: Instagram
+      value: "@jessma_ilusiones"
+      href: "https://www.instagram.com/jessma_ilusiones"
+footer:
+  made_with: Réalisé avec
+  made_by: par
+error_404:
+  code: "404"
+  title: Oups ! Page introuvable
+  description: La page recherchée semble s'être perdue dans l'univers des décorations magiques. Pas d'inquiétude, découvrez nos jolies créations.
+  primary_cta: Retour à l'accueil
+  secondary_cta: Contacter sur WhatsApp
+  secondary_url: "https://wa.me/376679874?text=Bonjour%20Jessica,%20j'aimerais%20en%20savoir%20plus%20sur%20vos%20services%20de%20décoration"
+  quick_links_title: Vous cherchiez quelque chose en particulier ?
+  quick_links:
+    - label: Voir les décorations
+      anchor: decoraciones
+      button_class: bg-custom-pink
+    - label: Mes formules
+      anchor: packs
+      button_class: bg-custom-gold
+    - label: Personnalisation
+      anchor: personalizacion
+      button_class: bg-custom-mint-dark
+    - label: À propos
+      anchor: conoceme
+      button_class: bg-gray-600

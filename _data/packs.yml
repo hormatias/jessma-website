@@ -3,6 +3,7 @@
     es: Pack Balloon Arch
     en: Balloon Arch Pack
     ca: Pack Balloon Arch
+    fr: Formule arche de ballons
   features:
     es:
       - Arco decorativo
@@ -19,6 +20,11 @@
       - Globus
       - Columnes
       - Llums de neó
+    fr:
+      - Arche décorative
+      - Ballons
+      - Colonnes
+      - Lumières néon
   cta_url:
     es: "https://wa.me/376679874?text=Hola%20Jessica,%20te%20contacto%20desde%20tu%20web.%20Me%20interesa%20el%20Pack%20Balloon%20Arch%20de%20120%E2%82%AC"
     en: "https://wa.me/376679874?text=Hi%20Jessica,%20I%20am%20contacting%20you%20through%20your%20website.%20I%20am%20interested%20in%20the%20Balloon%20Arch%20Pack%20for%20120%E2%82%AC"
@@ -28,6 +34,7 @@
     es: Pack Shimmer Wall
     en: Shimmer Wall Pack
     ca: Pack Shimmer Wall
+    fr: Formule Shimmer Wall
   features:
     es:
       - Shimmer Wall
@@ -44,6 +51,11 @@
       - Globus
       - Columnes
       - Llums de neó
+    fr:
+      - Shimmer Wall
+      - Ballons
+      - Colonnes
+      - Lumières néon
   cta_url:
     es: "https://wa.me/376679874?text=Hola%20Jessica,%20te%20contacto%20desde%20tu%20web.%20Me%20interesa%20el%20Pack%20Shimmer%20Wall%20de%20150%E2%82%AC"
     en: "https://wa.me/376679874?text=Hi%20Jessica,%20I%20am%20contacting%20you%20through%20your%20website.%20I%20am%20interested%20in%20the%20Shimmer%20Wall%20Pack%20for%20150%E2%82%AC"
@@ -53,6 +65,7 @@
     es: Pack Premium
     en: Premium Pack
     ca: Pack Premium
+    fr: Formule Premium
   features:
     es:
       - Arco decorativo
@@ -72,6 +85,12 @@
       - Paret Shimmer Wall
       - Columnes
       - Llums de neó
+    fr:
+      - Arche décorative
+      - Ballons
+      - Fond Shimmer Wall
+      - Colonnes
+      - Lumières néon
   cta_url:
     es: "https://wa.me/376679874?text=Hola%20Jessica,%20te%20contacto%20desde%20tu%20web.%20Me%20interesa%20el%20Pack%20Premium%20de%20180%E2%82%AC"
     en: "https://wa.me/376679874?text=Hi%20Jessica,%20I%20am%20contacting%20you%20through%20your%20website.%20I%20am%20interested%20in%20the%20Premium%20Pack%20for%20180%E2%82%AC"
