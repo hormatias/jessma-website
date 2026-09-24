@@ -27,15 +27,16 @@
       <div class="splide__track">
         <ul class="splide__list">
           {% for item in site.data.decorations %}
+          {% assign photo_translation = site.data.photo_translations.fr | where: "image", item.image | first %}
           <li class="splide__slide relative group">
             <div class="relative overflow-hidden shadow-2xl bg-custom-pink-light">
-              <a href="{{ item.image | relative_url }}" data-lightbox="decoraciones" data-title="{{ item.lightbox_title[page.locale] | default: item.lightbox_title.en }}">
-                <img src="{{ item.image | relative_url }}" alt="{{ item.alt[page.locale] | default: item.alt.en }}" class="w-full h-[36rem] md:object-contain object-cover transition-transform duration-500 group-hover:scale-105">
+              <a href="{{ item.image | relative_url }}" data-lightbox="decoraciones" data-title="{% if page.locale == 'fr' %}{{ photo_translation.title }}{% else %}{{ item.lightbox_title[page.locale] | default: item.lightbox_title.en }}{% endif %}">
+                <img src="{{ item.image | relative_url }}" alt="{% if page.locale == 'fr' %}{{ photo_translation.alt }}{% else %}{{ item.alt[page.locale] | default: item.alt.en }}{% endif %}" class="w-full h-[36rem] md:object-contain object-cover transition-transform duration-500 group-hover:scale-105">
               </a>
               <div class="absolute inset-0 bg-gradient-to-t from-black/30 via-black/0 to-transparent pointer-events-none"></div>
               <div class="absolute bottom-0 left-0 right-0 p-6 text-white pointer-events-none">
-                <h3 class="text-2xl font-dancing font-bold mb-2">{{ item.title[page.locale] | default: item.title.en }}</h3>
-                <p class="text-lg opacity-90">{{ item.description[page.locale] | default: item.description.en }}</p>
+                <h3 class="text-2xl font-dancing font-bold mb-2">{% if page.locale == 'fr' %}{{ photo_translation.title }}{% else %}{{ item.title[page.locale] | default: item.title.en }}{% endif %}</h3>
+                <p class="text-lg opacity-90">{% if page.locale == 'fr' %}{{ photo_translation.description }}{% else %}{{ item.description[page.locale] | default: item.description.en }}{% endif %}</p>
               </div>
             </div>
           </li>
@@ -97,6 +98,7 @@
 
         <div class="relative z-20 mx-auto h-[14rem] max-w-5xl sm:h-[18rem] md:h-[23rem]">
           {% for item in site.data.romantic_decorations %}
+          {% assign photo_translation = site.data.photo_translations.fr | where: "image", item.image | first %}
           {% case forloop.index %}
             {% when 1 %}
               {% assign romantic_card_class = "-left-2 top-10 z-10 w-[24%] -rotate-[17deg] sm:left-0 sm:top-11 sm:w-[22%] md:left-2 md:top-16 md:w-[19%]" %}
@@ -110,8 +112,8 @@
               {% assign romantic_card_class = "-right-2 top-10 z-10 w-[24%] rotate-[17deg] sm:right-0 sm:top-11 sm:w-[22%] md:right-2 md:top-16 md:w-[19%]" %}
           {% endcase %}
           <figure class="group absolute {{ romantic_card_class }} overflow-hidden rounded-[1.4rem] border-4 border-white bg-romantic-blush/70 shadow-[0_20px_45px_-18px_rgba(92,61,74,0.45)] ring-1 ring-custom-gold/15 transition-transform duration-300 hover:z-40 hover:scale-[1.03]">
-            <a href="{{ item.image | relative_url }}" data-lightbox="romanticas" data-title="{{ item.alt[page.locale] | default: item.alt.en }}" class="block aspect-[3/4]">
-              <img src="{{ item.image | relative_url }}" alt="{{ item.alt[page.locale] | default: item.alt.en }}" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]">
+            <a href="{{ item.image | relative_url }}" data-lightbox="romanticas" data-title="{% if page.locale == 'fr' %}{{ photo_translation.alt }}{% else %}{{ item.alt[page.locale] | default: item.alt.en }}{% endif %}" class="block aspect-[3/4]">
+              <img src="{{ item.image | relative_url }}" alt="{% if page.locale == 'fr' %}{{ photo_translation.alt }}{% else %}{{ item.alt[page.locale] | default: item.alt.en }}{% endif %}" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]">
             </a>
           </figure>
           {% endfor %}
