@@ -43,6 +43,52 @@
   <meta name="twitter:image" content="{{ site.url }}{{ site_data.og_image }}">
   <meta name="twitter:image:alt" content="{{ seo.og_title }}">
 
+  {% capture website_url %}{{ site.url }}/{% endcapture %}
+  {% capture business_id %}{{ site.url }}/#business{% endcapture %}
+  {% capture website_id %}{{ site.url }}/#website{% endcapture %}
+  {% capture page_url %}{{ site.url }}{{ page.localized_paths[page.locale] }}{% endcapture %}
+  {% capture image_url %}{{ site.url }}{{ site_data.og_image }}{% endcapture %}
+  {% capture logo_url %}{{ site.url }}{{ site_data.logo_main }}{% endcapture %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ProfessionalService",
+        "@id": {{ business_id | jsonify }},
+        "name": {{ site_data.brand | jsonify }},
+        "url": {{ website_url | jsonify }},
+        "description": {{ seo.description | jsonify }},
+        "telephone": {{ site_data.phone_display | jsonify }},
+        "email": {{ site_data.email_address | jsonify }},
+        "image": {{ image_url | jsonify }},
+        "logo": {{ logo_url | jsonify }},
+        "sameAs": [{{ site_data.instagram_url | jsonify }}],
+        "areaServed": { "@type": "Country", "name": "Andorra" }
+      },
+      {
+        "@type": "WebSite",
+        "@id": {{ website_id | jsonify }},
+        "url": {{ website_url | jsonify }},
+        "name": {{ site_data.brand | jsonify }},
+        "publisher": { "@id": {{ business_id | jsonify }} },
+        "inLanguage": {{ page.locale | jsonify }}
+      },
+      {
+        "@type": "WebPage",
+        "@id": {{ page_url | jsonify }},
+        "url": {{ page_url | jsonify }},
+        "name": {{ seo.title | jsonify }},
+        "description": {{ seo.description | jsonify }},
+        "inLanguage": {{ page.locale | jsonify }},
+        "isPartOf": { "@id": {{ website_id | jsonify }} },
+        "about": { "@id": {{ business_id | jsonify }} },
+        "primaryImageOfPage": { "@type": "ImageObject", "url": {{ image_url | jsonify }} }
+      }
+    ]
+  }
+  </script>
+
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
