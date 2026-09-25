@@ -1,4 +1,4 @@
-- price: 120€
+- price: 130€
   name:
     es: Pack Balloon Arch
     en: Balloon Arch Pack
@@ -26,10 +26,10 @@
       - Colonnes
       - Lumières néon
   cta_url:
-    es: "https://wa.me/376679874?text=Hola%20Jessica,%20te%20contacto%20desde%20tu%20web.%20Me%20interesa%20el%20Pack%20Balloon%20Arch%20de%20120%E2%82%AC"
-    en: "https://wa.me/376679874?text=Hi%20Jessica,%20I%20am%20contacting%20you%20through%20your%20website.%20I%20am%20interested%20in%20the%20Balloon%20Arch%20Pack%20for%20120%E2%82%AC"
-    ca: "https://wa.me/376679874?text=Hola%20Jessica,%20m'interessa%20el%20Pack%20Balloon%20Arch%20de%20120%E2%82%AC"
-- price: 150€
+    es: "https://wa.me/376679874?text=Hola%20Jessica,%20te%20contacto%20desde%20tu%20web.%20Me%20interesa%20el%20Pack%20Balloon%20Arch%20de%20130%E2%82%AC"
+    en: "https://wa.me/376679874?text=Hi%20Jessica,%20I%20am%20contacting%20you%20through%20your%20website.%20I%20am%20interested%20in%20the%20Balloon%20Arch%20Pack%20for%20130%E2%82%AC"
+    ca: "https://wa.me/376679874?text=Hola%20Jessica,%20m'interessa%20el%20Pack%20Balloon%20Arch%20de%20130%E2%82%AC"
+- price: 160€
   name:
     es: Pack Shimmer Wall
     en: Shimmer Wall Pack
@@ -57,9 +57,9 @@
       - Colonnes
       - Lumières néon
   cta_url:
-    es: "https://wa.me/376679874?text=Hola%20Jessica,%20te%20contacto%20desde%20tu%20web.%20Me%20interesa%20el%20Pack%20Shimmer%20Wall%20de%20150%E2%82%AC"
-    en: "https://wa.me/376679874?text=Hi%20Jessica,%20I%20am%20contacting%20you%20through%20your%20website.%20I%20am%20interested%20in%20the%20Shimmer%20Wall%20Pack%20for%20150%E2%82%AC"
-    ca: "https://wa.me/376679874?text=Hola%20Jessica,%20m'interessa%20el%20Pack%20Shimmer%20Wall%20de%20150%E2%82%AC"
+    es: "https://wa.me/376679874?text=Hola%20Jessica,%20te%20contacto%20desde%20tu%20web.%20Me%20interesa%20el%20Pack%20Shimmer%20Wall%20de%20160%E2%82%AC"
+    en: "https://wa.me/376679874?text=Hi%20Jessica,%20I%20am%20contacting%20you%20through%20your%20website.%20I%20am%20interested%20in%20the%20Shimmer%20Wall%20Pack%20for%20160%E2%82%AC"
+    ca: "https://wa.me/376679874?text=Hola%20Jessica,%20m'interessa%20el%20Pack%20Shimmer%20Wall%20de%20160%E2%82%AC"
 - price: 180€
   name:
     es: Pack Premium

@@ -65,7 +65,7 @@ customization:
         - title: Lumières néon
           description: Différents styles et couleurs
         - title: Shimmer Wall
-          description: 3 options
+          description: 4 options
     - icon: "🎁"
       accent_class: border-custom-gold
       button_class: bg-custom-gold
@@ -80,6 +80,8 @@ customization:
           price: 60€
         - title: Table candy bar et éléments décoratifs
           price: 50€
+        - title: Miroir 168 × 60 cm + lettrage vinyle personnalisé
+          price: 120€
     - icon: "🎨"
       accent_class: border-custom-mint-dark
       button_class: bg-custom-mint-dark

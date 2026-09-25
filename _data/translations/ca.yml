@@ -65,7 +65,7 @@ customization:
         - title: Llums de neó
           description: Diferents estils i colors
         - title: Shimmer Wall
-          description: 3 opcions
+          description: 4 opcions
     - icon: "🎁"
       accent_class: border-custom-gold
       button_class: bg-custom-gold
@@ -80,6 +80,8 @@ customization:
           price: 60€
         - title: Taula candy bar + elements decoratius
           price: 50€
+        - title: Mirall 168 × 60 cm + vinil personalitzat
+          price: 120€
     - icon: "🎨"
       accent_class: border-custom-mint-dark
       button_class: bg-custom-mint-dark

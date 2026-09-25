@@ -65,7 +65,7 @@ customization:
         - title: Luces de neón
           description: Diferentes estilos y colores
         - title: Shimmer Wall
-          description: 3 opciones
+          description: 4 opciones
     - icon: "🎁"
       accent_class: border-custom-gold
       button_class: bg-custom-gold
@@ -80,6 +80,8 @@ customization:
           price: 60€
         - title: Mesa candy bar + elementos decorativos
           price: 50€
+        - title: Espejo 168 × 60 cm + vinilo personalizado
+          price: 120€
     - icon: "🎨"
       accent_class: border-custom-mint-dark
       button_class: bg-custom-mint-dark

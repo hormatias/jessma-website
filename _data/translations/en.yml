@@ -65,7 +65,7 @@ customization:
         - title: Neon lights
           description: Different styles and colours
         - title: Shimmer wall
-          description: 3 options
+          description: 4 options
     - icon: "🎁"
       accent_class: border-custom-gold
       button_class: bg-custom-gold
@@ -80,6 +80,8 @@ customization:
           price: 60€
         - title: Candy table + decorative elements
           price: 50€
+        - title: Mirror 168 × 60 cm + custom vinyl lettering
+          price: 120€
     - icon: "🎨"
       accent_class: border-custom-mint-dark
       button_class: bg-custom-mint-dark
