@@ -12,3 +12,4 @@ exclude:
   - docker-compose.yml
   - nginx
   - opencode.json
+  - img/originals/romantic

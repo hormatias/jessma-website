@@ -15,6 +15,40 @@
     es: Arcos decorativos con fundas beige, cartel de luz neón, flores artificiales y hojas de papel kraft
     en: Decorative arches with beige covers, neon sign, artificial flowers and kraft-paper leaves
     ca: Arcs decoratius amb fundes beix, rètol de neó, flors artificials i fulles de paper kraft
+- image: /img/cumpleanos-tipi-exterior.webp
+  title:
+    es: Cumpleaños Tipi exterior
+    en: Outdoor teepee birthday
+    ca: Aniversari en tipi exterior
+  lightbox_title:
+    es: Cumpleaños Tipi exterior
+    en: Outdoor teepee birthday
+    ca: Aniversari en tipi exterior
+  alt:
+    es: Cumpleaños al aire libre en un tipi con lazos colgantes y mesa para manualidades
+    en: Outdoor birthday in a teepee with hanging ribbons and a crafts table
+    ca: Aniversari a l'aire lliure en un tipi amb llaços penjants i una taula per fer manualitats
+  description:
+    es: Tipi exterior con detalles de lazos colgantes, más detalles decorativos y espacio de mesa para manualidades
+    en: Outdoor teepee with hanging ribbons, decorative details and a table space for crafts
+    ca: Tipi exterior amb llaços penjants, detalls decoratius i una taula per fer manualitats
+- image: /img/cumpleanos-tematico-toy-story.webp
+  title:
+    es: Cumpleaños temático Toy Story
+    en: Toy Story-themed birthday
+    ca: Aniversari temàtic de Toy Story
+  lightbox_title:
+    es: Cumpleaños temático Toy Story
+    en: Toy Story-themed birthday
+    ca: Aniversari temàtic de Toy Story
+  alt:
+    es: Cumpleaños temático de Toy Story con arcos decorativos, globos combinados y número 8 vinilado
+    en: Toy Story-themed birthday with decorative arches, mixed balloons and a vinyl number 8
+    ca: Aniversari temàtic de Toy Story amb arcs decoratius, globus combinats i número 8 vinilat
+  description:
+    es: Arcos decorativos con funda temática, globos combinados y número vinilado
+    en: Decorative arches with themed covers, mixed balloons and a vinyl number
+    ca: Arcs decoratius amb fundes temàtiques, globus combinats i número vinilat
 - image: /img/cumpleanos-18-shimmer-rosa.webp
   title:
     es: 18 cumpleaños
